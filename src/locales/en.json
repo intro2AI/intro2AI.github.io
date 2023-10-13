@@ -46,8 +46,8 @@
   },
   "homePage": {
     "startCourseButton": "Start course",
-    "announcementsTitle": "Announcements",
-    "authorsTitle": "Authors and License",
-    "courseNameTitle": "Full Stack Web Development"
+    "announcementsTitle": "Community",
+    "authorsTitle": "How we Teach",
+    "courseNameTitle": "for Domain Experts"
   }
 }

@@ -4,7 +4,7 @@ import cn from 'classnames';
 import styles from './LanguagePicker.module.scss';
 
 const options = [
-  { value: 'fi', label: 'Suomi' },
+  { value: 'fi', label: 'Marathi' },
   { value: 'en', label: 'English' },
 ];
 
