@@ -59,7 +59,7 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "deploy": "gatsby build && gh-pages -d public -b master",
-    "publish": "gh-pages -u 'Matti Luukkainen <mluukkai@iki.fi>' -d public -b master"
+    "publish": "gh-pages -u 'Kartik Chincholikar <kartik.niszoig@gmail.com>' -d public -b master"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -73,6 +73,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FullStack-HY/FullStack-Hy.github.io"
+    "url": "https://github.com/intro2AI/intro2AI.github.io"
   }
 }
