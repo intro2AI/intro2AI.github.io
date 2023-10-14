@@ -6,8 +6,10 @@ lang: en
 
 <div class="intro">
 
-Welcome to the world of AI, where the deepest ideas meet the practical applications.After that we will have an overview of the basics of web development, and also talk about the advances in web application development during the last few decades.
+Welcome to the world of AI, where the deepest ideas meet the practical applications. We will start with the very foundation of all predictions: Learning from Past Experience.
 
-Exercise deadline for this part (and part 1) Monday 30.1.
+Pre-requisites:
+Time and Dedication
+Your area of interest
 
 </div>

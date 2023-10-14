@@ -52,26 +52,24 @@ module.exports = {
   },
   en: {
     '0': {
-      a: 'General info',
-      b: 'Fundamentals of Web apps',
+      a: 'Supervised Learning',
+      b: 'The Alignment Problem',
     },
     '1': {
-      a: 'Introduction to React',
-      b: 'JavaScript',
-      c: 'Component state, event handlers',
-      d: 'A more complex state, debugging React apps',
+      a: 'Designing AI Systems',
+      b: 'Model Selection and Evaluation',
+      c: 'Types of Errors',
+      d: 'On Thinking fast and slow: System 1 vs System 2',
     },
     '2': {
-      a: 'Rendering a collection, modules',
-      b: 'Forms',
-      c: 'Getting data from server',
-      d: 'Altering data in server',
-      e: 'Adding styles to React app',
+      a: 'Google Search and Juxtaposition',
+      b: 'Intuition: Large Language Models',
+      c: 'LLM Use-Cases',
     },
     '3': {
-      a: 'Node.js and Express',
-      b: 'Deploying app to internet',
-      c: 'Saving data to MongoDB',
+      a: 'Generative AI painting competetion',
+      b: 'Finetuning : Importance of High Quality Datasets',
+      c: 'Is AI an Existential Risk?',
       d: 'Validation and ESLint',
     },
     '4': {
