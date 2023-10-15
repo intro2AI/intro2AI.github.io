@@ -36,7 +36,7 @@
     "submitSuccessMessage": "Thanks! We will contact you soon!",
     "participantsTitle": "These companies have joined the Full Stack challenge",
     "coOperationTitle": "In co-operation with",
-    "infoButton": "More about challenge"
+    "infoButton": "More about course"
   },
   "companiesPage": {
     "storiesTitle": "Developer stories from our partners"
@@ -48,6 +48,6 @@
     "startCourseButton": "Start course",
     "announcementsTitle": "Community",
     "authorsTitle": "How we Teach",
-    "courseNameTitle": "for Domain Experts"
+    "courseNameTitle": "for Chefs, Doctors, Oceanographers, Librarians, Fashion Designers, Botanists, Carpenters and all other Domain Experts"
   }
 }

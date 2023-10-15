@@ -9,8 +9,5 @@ lang: en
 
 The terms Artificial Intelligence, Data Science, Deep Learning, Machine Learning do not mean much without Data and Domain Knowledge (your area of interest)
 
-### Our Checklist
-- [ ] [Teaching Machines](https://teachablemachine.withgoogle.com/)
-
-
+- Let's [Teach Machines](https://teachablemachine.withgoogle.com/)!
 </div>

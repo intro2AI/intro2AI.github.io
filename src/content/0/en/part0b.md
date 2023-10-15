@@ -7,10 +7,10 @@ lang: en
 
 <div class="content">
 
-With Neural Networks, things are not as simple as they seem. There is something insidious going on.
+With Neural Networks, things are not as simple as they seem. There is something insidious going on. 
 
-### Our Checklist
-- [ ] Understand the the Alignment Problem
-- [ ] Sliding down the Long Tail of Edge cases
+In this section, we will:
 
+- Understand the Alignment Problem
+- Slide down the Long Tail of Edge cases
 </div>

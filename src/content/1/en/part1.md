@@ -8,5 +8,4 @@ lang: en
 
 This part is a guideline for Domain Experts on how to think like a Data Scientist. This will help you decide if opting for an AI Solution is feasible.
 
-
 </div>

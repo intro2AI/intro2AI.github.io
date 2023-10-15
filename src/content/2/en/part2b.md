@@ -7,9 +7,8 @@ lang: en
 
 <div class="content">
 
-Here you will gain an intuitive understanding of how chatbots such as ChatGPT work.
+This section will give you an intuitive understanding of how Large Language Models work. We will:
 
-- [ ] Exploring the [Embedding Space](https://projector.tensorflow.org/)
-- [ ] How chatbots work
-
+- Explore the [Embedding Space](https://projector.tensorflow.org/)
+- Undertand the Attention Mechanism
 </div>

@@ -70,7 +70,7 @@ module.exports = {
       a: 'Generative AI painting competetion',
       b: 'Finetuning : Importance of High Quality Datasets',
       c: 'Is AI an Existential Risk?',
-      d: 'Validation and ESLint',
+      d: 'Pernicious Feedback Loops',
     },
     '4': {
       a: 'Structure of backend application, introduction to testing',

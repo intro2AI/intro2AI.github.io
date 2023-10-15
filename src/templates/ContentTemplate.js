@@ -190,7 +190,7 @@ export default class ContentTemplate extends Component {
                 content={[
                   {
                     backgroundColor: colorCode,
-                    text: 'Fullstack',
+                    text: 'Modern AI',
                     link: `/${lang === 'fi' ? '' : `${lang}/`}#course-contents`,
                   },
                   {
@@ -241,9 +241,7 @@ export default class ContentTemplate extends Component {
               {Parser(html, parserOptions)}
             </Element>
           </Element>
-
-          <EditLink part={part} letter={letter} lang={lang} />
-
+          
           <PrevNext part={part} letter={letter} lang={lang} />
         </div>
 

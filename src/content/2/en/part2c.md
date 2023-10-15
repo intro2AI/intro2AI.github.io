@@ -7,9 +7,8 @@ lang: en
 
 <div class="content">
 
-We will learn how to apply LLM to your areas of expertise
-- [ ] Examples of System 1 and System 2 tasks
-- [ ] "Human in the loop" process
-- [ ] Chatting with books, and roaming the internet!
-
+In this section, we will look at feasible applications of large language models. We will discuss:
+- Examples of System 1 and System 2 tasks
+- the "Human in the loop" process
+- Chatting with books, and roaming the internet!
 </div>
