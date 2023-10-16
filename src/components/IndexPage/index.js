@@ -76,11 +76,6 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
 
           <div className="spacing--small" />
 
-          <BodyText
-            headingFont
-            className="col-4 order-1--mobile col-8--mobile link"
-            text={intro}
-          />
 
         </Element>
       </div>

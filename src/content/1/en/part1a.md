@@ -6,7 +6,16 @@ lang: en
 ---
 
 <div class="content">
-We will Design 2 Automation Systems at a High Level:
-- Will you be allowed on this Ride?
-- Only Cats are allowed inside this cave!
+In this section we will Practice designing Automation Systems at a High Level.
+
+### Slides
+Download the slides here.
+
+### Content
+Ensuring Safety at the Amusement Park\
+Conveyor Belt\
+Cat vs Dog classification
+
+### Resources
+
 </div>

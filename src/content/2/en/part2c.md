@@ -6,9 +6,16 @@ lang: en
 ---
 
 <div class="content">
+In this section, we will look at feasible applications of Large Language Models.
 
-In this section, we will look at feasible applications of large language models. We will discuss:
-- Examples of System 1 and System 2 tasks
-- the "Human in the loop" process
-- Chatting with books, and roaming the internet!
+### Slides
+No Slides.
+
+### Content
+Examples of System 1 and System 2 tasks\
+The "Human in the loop" process\
+Chatting with books, and roaming the internet!
+
+### Resources
+
 </div>

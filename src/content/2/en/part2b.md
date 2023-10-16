@@ -6,9 +6,15 @@ lang: en
 ---
 
 <div class="content">
+This section will give you an intuitive understanding of how Large Language Models work.
 
-This section will give you an intuitive understanding of how Large Language Models work. We will:
+### Slides
+No Slides.
 
-- Explore the [Embedding Space](https://projector.tensorflow.org/)
-- Undertand the Attention Mechanism
+### Content
+We will Explore the [Embedding Space](https://projector.tensorflow.org/)\
+Undertand the Attention Mechanism.
+
+### Resources
+
 </div>

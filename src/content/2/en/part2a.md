@@ -6,7 +6,14 @@ lang: en
 ---
 
 <div class="content">
-
 Before chatting with chatbots, let us first [master Google Search](https://www.youtube.com/watch?v=cEBkvm0-rg0).
-- We will study three words: Multiplicity, Humanity and Juxtapositon
+
+### Slides
+No Slides.
+
+### Content
+We will study three words: Multiplicity, Humanity and Juxtapositon
+
+### Resources
+
 </div>

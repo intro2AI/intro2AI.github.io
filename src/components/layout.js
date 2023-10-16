@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 class Layout extends Component {
   state = {
-    siteLanguage: 'fi',
+    siteLanguage: 'en',
   };
 
   componentDidMount() {
