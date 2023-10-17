@@ -73,7 +73,13 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
           >
             {t('homePage:startCourseButton')}
           </Link>
-
+          <div className="spacing--small" />
+          <Link
+            className="about__challenge-button"
+            to={getTranslationPath(lang, '/challenge')}
+          >
+            {t('challengePage:infoButton')}
+          </Link>
           <div className="spacing--small" />
 
 

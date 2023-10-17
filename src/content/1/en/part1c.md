@@ -6,6 +6,7 @@ lang: en
 ---
 
 <div class="content">
+
 This section is the very core of this course. We will understand why Domain Knowledge is crucial when thinking about AI applications
 
 ### Slides

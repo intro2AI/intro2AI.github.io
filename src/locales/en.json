@@ -36,7 +36,7 @@
     "submitSuccessMessage": "Thanks! We will contact you soon!",
     "participantsTitle": "These companies have joined the Full Stack challenge",
     "coOperationTitle": "In co-operation with",
-    "infoButton": "More about course"
+    "infoButton": "Enroll"
   },
   "companiesPage": {
     "storiesTitle": "Developer stories from our partners"
@@ -45,7 +45,7 @@
     "faqTitle": "Frequently asked questions"
   },
   "homePage": {
-    "startCourseButton": "Start course",
+    "startCourseButton": "About",
     "announcementsTitle": "Location",
     "authorsTitle": "Duration",
     "courseNameTitle": "for Chefs, Doctors, Journalists, Oceanographers, Traders, Police, Fishermen, Librarians, Organisers, Football Coaches, Fashion Designers, Demonstrators, Botanists, Carpenters and other Domain Experts"

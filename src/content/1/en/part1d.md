@@ -6,6 +6,7 @@ lang: en
 ---
 
 <div class="content">
+
 An AI which beats Grandmasters at chess cannot make Policy Decisions. In this section, we will discuss Daniel Kahneman's book *Thinking, Fast and Slow*, and how it connects to Modern AI.
 
 ### Slides

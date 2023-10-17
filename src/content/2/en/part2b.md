@@ -6,6 +6,7 @@ lang: en
 ---
 
 <div class="content">
+
 This section will give you an intuitive understanding of how Large Language Models work.
 
 ### Slides

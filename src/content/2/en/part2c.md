@@ -6,6 +6,7 @@ lang: en
 ---
 
 <div class="content">
+
 In this section, we will look at feasible applications of Large Language Models.
 
 ### Slides

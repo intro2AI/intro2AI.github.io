@@ -6,6 +6,7 @@ lang: en
 ---
 
 <div class="content">
+
 In this section we will Practice designing Automation Systems at a High Level.
 
 ### Slides
