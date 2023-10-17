@@ -72,32 +72,6 @@ module.exports = {
       c: 'Is AI an Existential Risk?',
       d: 'Pernicious Feedback Loops',
     },
-    '4': {
-      a: 'Structure of backend application, introduction to testing',
-      b: 'Testing the backend',
-      c: 'User administration',
-      d: 'Token authentication',
-    },
-    '5': {
-      a: 'Login in frontend',
-      b: 'props.children and proptypes',
-      c: 'Testing React apps',
-      d: 'End to end -testing',
-    },
-    '6': {
-      a: 'Flux-architecture and Redux',
-      b: 'Many reducers',
-      c: 'Communicating with server in a redux application',
-      d: 'React Query, useReducer and the contex',
-    },
-    '7': {
-      a: 'React-router',
-      b: 'Custom hooks',
-      c: 'More about styles',
-      d: 'Webpack',
-      e: 'Class components, Miscellaneous',
-      f: 'Exercises: extending the bloglist',
-    },
   },
   zh: {
     '0': {

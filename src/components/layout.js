@@ -13,11 +13,11 @@ class Layout extends Component {
 
   componentDidMount() {
     const siteLanguage =
-      window.location.pathname.indexOf('/en') > -1
-        ? 'en'
+      window.location.pathname.indexOf('/fi') > -1
+        ? 'fi'
         : window.location.pathname.indexOf('/zh') > -1
         ? 'zh'
-        : 'fi';
+        : 'en';
     this.setState({
       siteLanguage: siteLanguage,
     });

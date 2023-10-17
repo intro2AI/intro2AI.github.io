@@ -85,7 +85,6 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
           <Element flex horizontalHalf flexStart>
             <Element flex spaceBetween autoBottomMargin className="col-10">
               <Image contain small src={news} className="col-1--mobile" />
-
               <BodyText
                 className="col-7 col-8--mobile link"
                 style={{ marginRight: '2rem' }}
@@ -108,13 +107,11 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
               flex
               spaceBetween
               autoBottomMargin
-              className="col-10 spacing--mobile"
+              className="col-10"
             >
               <Image contain small src={cc} className="col-1--mobile" />
-
               <BodyText
-                headingFont
-                className="col-7 col-8--mobile"
+                className="col-7 col-8--mobile link"
                 style={{ marginRight: '2rem' }}
                 heading={{
                   title: t('homePage:authorsTitle'),
@@ -124,8 +121,8 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
             </Element>
 
             <BodyText
-              headingFont
               className="spacing--small link"
+              headingFont
               text={licence}
             />
           </Element>
