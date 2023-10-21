@@ -74,20 +74,11 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
             {t('homePage:startCourseButton')}
           </Link>
           <div className="spacing--small" />
-          <Link
-            className="about__challenge-button"
-            to={getTranslationPath(lang, '/challenge')}
-          >
-            {t('challengePage:infoButton')}
-          </Link>
-          <div className="spacing--small" />
-
-
         </Element>
       </div>
 
       <Element className="container spacing spacing--after">
-        <Element className="push-right-1 push-left-1" spaceBetween flex>
+        <Element className="push-right-1 push-left-1" spaceBetween flex gap="3.444rem">
           <Element flex horizontalHalf flexStart>
             <Element flex spaceBetween autoBottomMargin className="col-10">
               <Image contain small src={news} className="col-1--mobile" />
@@ -151,24 +142,6 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
             autoMargin
             className="col-10 col-8--mobile spacing--small"
           >
-            <div className="col-3 col-10--mobile">
-              <a
-                target="_BLANK"
-                rel="noopener noreferrer"
-                className="col-10 col-4--mobile"
-                href="https://www.helsinki.fi/fi"
-              >
-                <Image
-                  contain
-                  src={yliopistoLogo}
-                  alt="Helsingin Yliopisto logo"
-                  className="col-5 col-4--mobile"
-                />
-              </a>
-
-              <BodyText headingFont text={university} />
-            </div>
-
             <Element flex spaceBetween className="col-3 col-10--mobile">
               <a
                 target="_BLANK"

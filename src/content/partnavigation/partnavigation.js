@@ -66,12 +66,6 @@ module.exports = {
       b: 'Intuition: Large Language Models',
       c: 'LLM Use-Cases',
     },
-    '3': {
-      a: 'Generative AI painting competetion',
-      b: 'Finetuning : Importance of High Quality Datasets',
-      c: 'Is AI an Existential Risk?',
-      d: 'Pernicious Feedback Loops',
-    },
   },
   zh: {
     '0': {

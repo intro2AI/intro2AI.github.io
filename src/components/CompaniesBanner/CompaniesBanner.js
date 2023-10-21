@@ -21,30 +21,6 @@ const partners = [
     image: { name: 'houston.svg', alt: 'Houston inc.' },
     url: 'https://www.houston-inc.com/careers',
   },
-  {
-    image: { name: 'terveystalo.svg', alt: 'Terveystalo' },
-    url: 'https://www.terveystalo.com/',
-  },
-  {
-    image: { name: 'elisa.svg', alt: 'Elisa' },
-    url: 'https://corporate.elisa.fi/rekrytointi/',
-  },
-  {
-    image: { name: 'kesko.svg', alt: 'Kesko' },
-    url: 'https://www.kesko.fi/',
-  },
-  {
-    image: { name: 'unity.svg', alt: 'Unity' },
-    url: 'https://www.instagram.com/unitytechnologies/?hl=en',
-  },
-  {
-    image: { name: 'konecranes.svg', alt: 'Konecranes' },
-    url: 'https://careers.konecranes.com/Konecranes/',
-  },
-  {
-    image: { name: 'smartly_io.svg', alt: 'Smartly' },
-    url: 'https://www.smartly.io/careers/',
-  },
 ];
 
 /* All logos must be in SVG format */
