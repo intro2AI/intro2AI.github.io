@@ -13,14 +13,7 @@ import { useTranslation } from 'react-i18next';
 import getTranslationPath from '../../utils/getTranslationPath';
 
 const partners = [
-  {
-    image: { name: 'uoh_centre.svg', alt: 'Helsingin yliopisto' },
-    url: 'https://www.helsinki.fi/',
-  },
-  {
-    image: { name: 'houston.svg', alt: 'Houston inc.' },
-    url: 'https://www.houston-inc.com/careers',
-  },
+
 ];
 
 /* All logos must be in SVG format */
@@ -90,58 +83,6 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
       id="challenge"
     >
       <Element className="container" flex>
-        <BodyText
-          centered
-          className="col-4 push-right-3 challenge-title"
-          text={t('challengePage:coOperationTitle')}
-        />
-        <Element
-          flex
-          spaceBetween
-          className="col-6 push-right-2 flex-fix-aligning space-between--mobile"
-        >
-          {partners.map((company, i) => (
-            <ContentLiftup
-              key={company.url}
-              small
-              companyPath={company.url}
-              image={{
-                src: require(`../../images/company_logos/${
-                  company.image.name
-                }`),
-                alt: company.image.alt,
-              }}
-              className={`col-3 col-5--mobile col-5--tablet`}
-            />
-          ))}
-        </Element>
-
-        {!isFrontPage && (
-          <>
-            <BodyText
-              centered
-              className="col-4 spacing push-right-3 challenge-title"
-              text={t('challengePage:participantsTitle')}
-            />
-            <Element
-              flex
-              className="col-9 flex-fix-aligning space-between--mobile"
-            >
-              {inChallenge.map(company => (
-                <Image
-                  key={company}
-                  contain
-                  src={require(`../../images/company_logos/${snakeCase(
-                    company
-                  )}.svg`)}
-                  alt={company}
-                  className={`company__logo push-right-1 col-3--mobile col-3--tablet`}
-                />
-              ))}
-            </Element>
-          </>
-        )}
-
         {isFrontPage && (
           <Element flex spaceAround className="col-10 spacing">
             <Link
