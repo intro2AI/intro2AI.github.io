@@ -48,32 +48,43 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
         description={seoDescription}
         keywords={[...mainSEOtags]}
       />
-      <div className="container spacing--after spacing--mobile">
+      <div className="frontpage-hero container spacing--after spacing--mobile">
         <Element
           flex
           spaceBetween
-          className="col-10 spacing--small frontpage__hero spacing--mobile"
+          className="spacing--small spacing--mobile"
           relative
         >
-          <SubHeader
-            className="col-6 index__main-title"
-            text={mainTitle}
-            headingLevel="h1"
-          />
+          <Element dirColumn className="frontpage-hero__content col-6">
+            <SubHeader
+              className="frontpage-hero__heading"
+              text={mainTitle}
+              headingLevel="h1"
+            />
 
-          <SubHeader
-            className="col-10"
-            text={t('homePage:courseNameTitle')}
-            headingLevel="h2"
-          />
+            <SubHeader text={t('homePage:courseNameTitle')} headingLevel="h2" />
 
-          <Link
-            className="col-2 centered about__challenge-button spacing--after--mobile"
-            to={getTranslationPath(lang, '/about')}
-          >
-            {t('homePage:startCourseButton')}
-          </Link>
-          <div className="spacing--small" />
+            <Link
+              className="frontpage-hero__cta centered about__challenge-button spacing--after--mobile"
+              to={getTranslationPath(lang, '/about')}
+            >
+              {t('homePage:startCourseButton')}
+            </Link>
+
+            <BodyText
+              className="frontpage-hero__description"
+              headingFont
+              text={intro}
+            />
+          </Element>
+
+          <Image
+            contain
+            className="col-4 frontpage-hero__image"
+            style={{ margin: 0 }}
+            alt="Stacked cubes with React logo and JavaScript text"
+            src={landingImage}
+          />
         </Element>
       </div>
 

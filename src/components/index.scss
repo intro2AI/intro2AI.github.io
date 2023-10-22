@@ -328,6 +328,57 @@ a {
   }
 }
 
+.frontpage-hero {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.frontpage-hero__content {
+  @include to($desktop) {
+    z-index: 1;
+    margin-bottom: 3rem;
+  }
+}
+
+.frontpage-hero__heading {
+  hyphens: auto;
+  font-size: 2rem;
+
+  @include from($tablet) {
+    font-size: 2.5rem;
+  }
+
+  @include from($large) {
+    font-size: 3rem;
+  }
+}
+
+.frontpage-hero__cta {
+  display: inline-block;
+  margin-bottom: 4rem;
+}
+
+.frontpage-hero__description {
+  max-width: $tablet-content;
+}
+
+.frontpage-hero__image {
+  @include to($desktop) {
+    position: absolute !important;
+    right: -5%;
+    top: -40px;
+    opacity: 0.1;
+
+    img {
+      transform: translateX(33%);
+    }
+  }
+
+  @include to($tablet) {
+    right: -40px;
+  }
+}
+
 .heading-font {
   font-family: $font-heading;
 }
