@@ -156,7 +156,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
             <BodyText
               className="spacing--small link"
               headingFont
-              text={codeOfConduct}
+              text={["Be honest, kind and Respectful. There are no stupid questions. Every mistake is an opportunity to learn."]}
             />
           </Element>
         </Element>
