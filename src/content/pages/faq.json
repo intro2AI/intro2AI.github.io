@@ -21,27 +21,15 @@
     ],
   "en": [
     {
-      "title": "How do I submit the exercises?",
+      "title": "I am unable to make payment online. Can I pay the fee in-person?",
       "text": [
         "The exercises are submitted to GitHub, and by marking the exercises as done in the exercise submission system. You can read more from <a href='/en/part0/general_info#submitting-exercises'>here</a>. "
       ]
     },
     {
-      "title": "Do I have to submit each part to a separate repository?",
+      "title": "Can I take this course if I am already familiar with AI?",
       "text": [
         "No. You can use one or more repositories, most important is to name everything in a repository clearly. "
-      ]
-    },
-    {
-      "title": "Can I edit a submission?",
-      "text": [
-        "No. All exercises for a part must be submitted at the same time. If you marked exercises wrong by accident, or wrote the repository name wrong, send an e-mail to matti.luukkainen@helsinki.fi."
-      ]
-    },
-    {
-      "title": "I do not have studyright in University of Helsinki. Can I sign up for this course?",
-      "text": [
-        "No, but there shall be a open version of the course starting at 15th March <a href='https://fullstackopen.com/'>here!</a>"
       ]
     }
   ],

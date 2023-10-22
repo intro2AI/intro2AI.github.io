@@ -60,7 +60,7 @@ class Header extends Component {
                 className="nav-item-hover"
                 childrenClassName="triple-border__logo"
               >
-                {'{() => fs}'}
+                {'intro2AI'}
               </TripleBorder>
             ) : (
               <TripleBorder
@@ -68,7 +68,7 @@ class Header extends Component {
                 className="nav-item-hover"
                 childrenClassName="triple-border__logo"
               >
-                fs
+                AI
               </TripleBorder>
             )}
           </Link>

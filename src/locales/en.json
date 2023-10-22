@@ -16,7 +16,7 @@
     "aboutCourse": "About course",
     "courseContents": "Course contents",
     "faq": "FAQ",
-    "partners": "Partners",
+    "partners": "Team",
     "challenge": "Challenge",
     "searchLinkSrLabel": "Search from the material"
   },
@@ -39,7 +39,7 @@
     "infoButton": "Enroll"
   },
   "companiesPage": {
-    "storiesTitle": "Developer stories from our partners"
+    "storiesTitle": "Our Story"
   },
   "faqPage": {
     "faqTitle": "Frequently asked questions"

@@ -21,6 +21,7 @@ import licenceIcon from '../../images/cc-logo.svg';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
 import news from '../../images/noun_news_1248039.svg';
+import codeconduct from '../../images/codeconduct.svg';
 import yliopistoLogo from '../../images/company_logos/uoh_centre.svg';
 import getTranslationPath from '../../utils/getTranslationPath';
 
@@ -89,7 +90,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
       </div>
 
       <Element className="container spacing spacing--after">
-        <Element className="push-right-1 push-left-1" spaceBetween flex gap="3.444rem">
+        <Element className="push-right-1 push-left-1" spaceBetween flex >
           <Element flex horizontalHalf flexStart>
             <Element flex spaceBetween autoBottomMargin className="col-10">
               <Image contain small src={news} className="col-1--mobile" />
@@ -142,7 +143,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
               autoBottomMargin
               className="col-10"
             >
-              <Image contain small src={cc} className="col-1--mobile" />
+              <Image contain small src={codeconduct} className="col-1--mobile" />
               <BodyText
                 className="col-7 col-8--mobile link"
                 style={{ marginRight: '2rem' }}
