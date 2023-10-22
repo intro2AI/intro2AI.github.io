@@ -25,7 +25,7 @@ const LanguageSwitcher = ({ lang }) => {
 };
 
 LanguageSwitcher.defaultProps = {
-  lang: 'en',
+  lang: 'fi',
 };
 
 LanguageSwitcher.propTypes = {

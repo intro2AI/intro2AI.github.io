@@ -50,8 +50,8 @@ const plugins = [
   {
     resolve: 'gatsby-plugin-i18n',
     options: {
-      langKeyDefault: 'en',
-      langKeyForNull: 'en',
+      langKeyDefault: 'fi',
+      langKeyForNull: 'fi',
       prefixDefault: false,
       useLangKeyLayout: false,
     },

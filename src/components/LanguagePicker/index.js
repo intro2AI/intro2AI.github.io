@@ -9,7 +9,7 @@ const options = [
 ];
 
 const LanguagePicker = ({
-  value = 'en',
+  value = 'fi',
   onChange,
   className: classNameProp,
 }) => {

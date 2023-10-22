@@ -75,12 +75,6 @@ const Navigation = props => {
           ))}
 
           {showSearchLink && <SearchLink lang={lang} />}
-
-          <LanguagePicker
-            className="navigation__language-picker"
-            onChange={onLanguageChange}
-            value={lang}
-          />
         </ul>
       </nav>
     </div>

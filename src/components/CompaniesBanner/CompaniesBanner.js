@@ -100,7 +100,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
 
 CompaniesBanner.defaultProps = {
   isFrontPage: false,
-  lang: 'en',
+  lang: 'fi',
 };
 
 CompaniesBanner.propTypes = {

@@ -147,7 +147,7 @@ class ScrollNavigation extends Component {
 
 ScrollNavigation.defaultProps = {
   className: '',
-  lang: 'en',
+  lang: 'fi',
 };
 
 ScrollNavigation.propTypes = {
