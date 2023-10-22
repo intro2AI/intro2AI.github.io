@@ -91,7 +91,7 @@ function SEO({ description, lang, meta, image, keywords, title }) {
 }
 
 SEO.defaultProps = {
-  lang: 'fi',
+  lang: 'en',
   image: null,
   meta: [],
   keywords: [],

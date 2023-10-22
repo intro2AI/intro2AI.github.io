@@ -45,9 +45,10 @@
     "faqTitle": "Frequently asked questions"
   },
   "homePage": {
-    "startCourseButton": "Start Course",
-    "announcementsTitle": " Location",
-    "authorsTitle": " Duration",
-    "courseNameTitle": "for Chefs, Doctors, Journalists, Oceanographers, Traders, Police, Fishermen, Librarians, Organisers, Football Coaches, Fashion Designers, Demonstrators, Botanists, Carpenters and other Domain Experts"
+    "startCourseButton": "View Coursework",
+    "announcementsTitle": "  Location",
+    "authorsTitle": "  Duration",
+    "courseNameTitle": "for Subject Matter Experts",
+    "codeConduct": "  Code of Conduct"
   }
 }

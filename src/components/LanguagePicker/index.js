@@ -4,12 +4,12 @@ import cn from 'classnames';
 import styles from './LanguagePicker.module.scss';
 
 const options = [
-  { value: 'fi', label: 'Marathi' },
+  { value: 'fi', label: 'Finnish' },
   { value: 'en', label: 'English' },
 ];
 
 const LanguagePicker = ({
-  value = 'fi',
+  value = 'en',
   onChange,
   className: classNameProp,
 }) => {

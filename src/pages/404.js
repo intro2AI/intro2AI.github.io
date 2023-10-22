@@ -10,7 +10,7 @@ import getTranslationPath from '../utils/getPartTranslationPath';
 
 class NotFoundPage extends Component {
   state = {
-    siteLanguage: 'fi',
+    siteLanguage: 'en',
   };
 
   componentDidMount() {

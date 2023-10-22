@@ -66,7 +66,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
 
             <Link
               className="frontpage-hero__cta centered about__challenge-button spacing--after--mobile"
-              to={getTranslationPath(lang, '/about')}
+              to={getTranslationPath(lang, '/#course-contents')}
             >
               {t('homePage:startCourseButton')}
             </Link>
@@ -132,6 +132,31 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
               className="spacing--small link"
               headingFont
               text={licence}
+            />
+          </Element>
+
+          <Element flex horizontalHalf flexStart>
+            <Element
+              flex
+              spaceBetween
+              autoBottomMargin
+              className="col-10"
+            >
+              <Image contain small src={cc} className="col-1--mobile" />
+              <BodyText
+                className="col-7 col-8--mobile link"
+                style={{ marginRight: '2rem' }}
+                heading={{
+                  title: t('homePage:codeConduct'),
+                  level: 'h3',
+                }}
+              />
+            </Element>
+
+            <BodyText
+              className="spacing--small link"
+              headingFont
+              text={codeOfConduct}
             />
           </Element>
         </Element>
