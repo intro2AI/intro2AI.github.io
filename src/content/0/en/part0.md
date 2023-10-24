@@ -6,9 +6,8 @@ lang: en
 
 <div class="intro">
 
-Welcome to the world of AI. We will start with the very foundation of all predictions: Learning from Past Experience.
+In Part 1, We will teach an AI model to learn from data. We will collect a toy dataset, train an AI on that dataset, and then study how it makes predicitons. An AI learns differently than how a Human learns. 
 
 Pre-requisites:
-You are required to have an area of interest, to which you'd like to apply AI. No programming knowledge is required.
-
+You are required to have an area of interest, to which you'd like to apply AI. No complicated Math or Programming Knowledge is assumed. 
 </div>

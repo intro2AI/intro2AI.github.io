@@ -59,7 +59,7 @@ module.exports = {
       a: 'Designing AI Systems',
       b: 'Model Selection and Evaluation',
       c: 'Types of Errors',
-      d: 'Negative Feedback Loops',
+      d: 'Deceptive Datasets and Negative Feedback Loops',
     },
     '2': {
       a: 'Google Search and Juxtaposition',
