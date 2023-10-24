@@ -90,7 +90,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
       </div>
 
       <Element className="container spacing spacing--after">
-        <Element className="push-right-1 push-left-1" spaceBetween flex >
+        <Element className="push-right-1 push-left-1" flex gap='1.111rem'>
           <Element flex horizontalHalf flexStart>
             <Element flex spaceBetween autoBottomMargin className="col-10">
               <Image contain small src={news} className="col-1--mobile" />
