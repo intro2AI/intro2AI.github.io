@@ -90,7 +90,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
       </div>
 
       <Element className="container spacing spacing--after">
-        <Element className="push-right-1 push-left-1" flex gap='1.111rem'>
+        <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
           <Element flex horizontalHalf flexStart>
             <Element flex spaceBetween autoBottomMargin className="col-10">
               <Image contain small src={news} className="col-1--mobile" />
@@ -133,6 +133,31 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
               className="spacing--small link"
               headingFont
               text={licence}
+            />
+          </Element>
+
+          <Element flex horizontalHalf flexStart>
+            <Element
+              flex
+              spaceBetween
+              autoBottomMargin
+              className="col-10"
+            >
+              <Image contain small src={licenceIcon} className="col-1--mobile" />
+              <BodyText
+                className="col-7 col-8--mobile link"
+                style={{ marginRight: '2rem' }}
+                heading={{
+                  title: t('Prerequisites'),
+                  level: 'h3',
+                }}
+              />
+            </Element>
+
+            <BodyText
+              className="spacing--small link"
+              headingFont
+              text={["A Computer with Internet Access, Time, Dedication, and the will to apply AI to specific domain. No Math or Programming Knowledge is required. Open for all humans aged 14 and Above. ",""]}
             />
           </Element>
 
