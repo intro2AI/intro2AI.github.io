@@ -148,7 +148,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
                 className="col-7 col-8--mobile link"
                 style={{ marginRight: '2rem' }}
                 heading={{
-                  title: t('Prerequisites'),
+                  title: t('   Prerequisites'),
                   level: 'h3',
                 }}
               />
