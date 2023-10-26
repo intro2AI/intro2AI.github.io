@@ -12,8 +12,9 @@ The terms Artificial Intelligence, Data Science, Deep Learning, Machine Learning
 ### Slides
 Download the slides here.
 
-### Content
-Let's [Teach Machines](https://teachablemachine.withgoogle.com/)!
+### Playground
+[Teachable Machine](https://teachablemachine.withgoogle.com/) - Create machine learning models for your sites, apps, and more – no expertise or coding required.
+[Drawdata](https://calmcode.io/labs/drawdata.html) - An interactive tool for creating machine learning datasets from drawings.
 
 ### Resources
 
