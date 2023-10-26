@@ -7,12 +7,12 @@ lang: en
 
 <div class="content">
 
-Before chatting with chatbots, let us first [master Google Search](https://www.youtube.com/watch?v=cEBkvm0-rg0).
+Before chatting with chatbots, let us first master Google Search and explore humanity's multiplicity by juxtaposing.
 
 ### Slides
 No Slides.
 
-### Exploring Humanity's Multiplicity by Juxtapositon
+### Playground
 
 [How to Google like a Pro?](https://www.youtube.com/watch?v=cEBkvm0-rg0)
 
