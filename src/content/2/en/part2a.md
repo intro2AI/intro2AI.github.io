@@ -12,9 +12,10 @@ Before chatting with chatbots, let us first [master Google Search](https://www.y
 ### Slides
 No Slides.
 
-### Content
-We will study three words: Multiplicity, Humanity and Juxtapositon
+### Exploring Humanity's Multiplicity by Juxtapositon
 
-### Resources
+[How to Google like a Pro?](https://www.youtube.com/watch?v=cEBkvm0-rg0)
+
+[Google Bard](https://bard.google.com/)
 
 </div>
