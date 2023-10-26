@@ -143,7 +143,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
               autoBottomMargin
               className="col-10"
             >
-              <Image contain small src={licenceIcon} className="col-1--mobile" />
+              <Image contain small src={cc} className="col-1--mobile" />
               <BodyText
                 className="col-7 col-8--mobile link"
                 style={{ marginRight: '2rem' }}
@@ -157,7 +157,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
             <BodyText
               className="spacing--small link"
               headingFont
-              text={["A Computer with Internet Access, Time, Dedication, and the will to apply AI to specific domain. No Math or Programming Knowledge is required. Open for all humans aged 14 and Above. ",""]}
+              text={["A computer with internet access, time, dedication, and the will to apply AI to a specific domain. No Programming knowledge is required. Open for all humans aged 14 and above. ",""]}
             />
           </Element>
 
@@ -182,7 +182,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
             <BodyText
               className="spacing--small link"
               headingFont
-              text={["Be honest, kind and Respectful. There are no stupid questions. Every mistake is an opportunity to learn.",""]}
+              text={["Be honest, kind and respectful. There are no stupid questions. Every mistake is an opportunity to learn.",""]}
             />
           </Element>
         </Element>
