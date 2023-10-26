@@ -12,10 +12,17 @@ How can we know that our AI system's performance is satisfactory?
 ### Slides
 Download the slides here.
 
-### Content
-A visit to the [Neural Network Playgroud](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=&seed=0.30857&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)\
-Understanding what "satisfactory" performace means.
+### Modeling Intution
+[Neural Network Decision Boundary](https://www.desmos.com/calculator/163ohyctri)
 
-### Resources
+[Neural Network Playgroud](https://shorturl.at/hjwx2)
+
+### Playground
+[MLU Explain: Train, Test and Validation Datasets](https://mlu-explain.github.io/train-test-validation/)
+
+[Google Jamboard: Precision and Recall](https://jamboard.google.com/)
+
+[MLU Explain: Precision and Recall](https://mlu-explain.github.io/precision-recall/)
+
 
 </div>
