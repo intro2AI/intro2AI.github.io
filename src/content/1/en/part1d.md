@@ -7,15 +7,18 @@ lang: en
 
 <div class="content">
 
-An AI which beats Grandmasters at chess cannot make Policy Decisions. In this section, we will discuss Daniel Kahneman's book *Thinking, Fast and Slow*, and how it connects to Modern AI.
+Datasets are not always perfect. They are a reflection of us, thus making the AI mimic us.
 
 ### Slides
 Download the slides here.
 
 ### Content
-Examples of System 1 thinking (hint: perception)\
-Examples of System 2 thinking 
+[Hiring Bias in AI](https://www.survivalofthebestfit.com/)
+[Understanding Negative Feedbak Loops](https://negativefeedbackloops.github.io/)
 
 ### Resources
+Should you use AI to decide who to give loans too?
+Should you use AI to decide who gets bail?
+Algorithmic Bias
 
 </div>
