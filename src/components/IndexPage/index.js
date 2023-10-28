@@ -16,7 +16,7 @@ import cc from '../../images/cc.svg';
 import colors from '../../colors';
 import content from '../../content/pages/main.json';
 import houstonLogo from '../../images/Houston_big.svg';
-import landingImage from '../../images/landing.svg';
+import landingImage from '../../images/landing.webp';
 import licenceIcon from '../../images/cc-logo.svg';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
