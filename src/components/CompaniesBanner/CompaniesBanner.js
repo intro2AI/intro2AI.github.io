@@ -16,33 +16,6 @@ const partners = [
 
 ];
 
-const reviewCarousel = (() => {
-  if (typeof document !== "undefined") {
-      const reviews = document.querySelectorAll('.review');
-  } else {
-      // document does not exist
-  }
-  let currentReviewIndex = 0;
-
-  function showNextReview() {
-    reviews[currentReviewIndex].classList.remove('active');
-    currentReviewIndex++;
-    if (currentReviewIndex >= reviews.length) {
-      currentReviewIndex = 0;
-    }
-    reviews[currentReviewIndex].classList.add('active');
-  }
-
-  function start() {
-    setInterval(showNextReview, 5000);
-  }
-
-  return {
-    start,
-  };
-})();
-
-document.addEventListener('DOMContentLoaded', reviewCarousel.start);
 
 
 /* All logos must be in SVG format */
@@ -122,23 +95,27 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
             </Link>
           </Element>
         )}
-        <div class="review-carousel">
-          <div class="review active">
-            <h3>5/5 stars</h3>
-            <p>This product is amazing! It works exactly as advertised and I am so glad I bought it.</p>
-            <span class="reviewer-name">John Doe</span>
-          </div>
-          <div class="review">
-            <h3>4/5 stars</h3>
-            <p>This product is good, but it could be better. The quality is good and it works well, but the price is a bit high.</p>
-            <span class="reviewer-name">Jane Smith</span>
-          </div>
-          <div class="review">
-            <h3>3/5 stars</h3>
-            <p>This product is okay. It works, but it's not great. The quality is not the best and it's a bit difficult to use.</p>
-            <span class="reviewer-name">Peter Jones</span>
-          </div>
-        </div>
+        <Element flex horizontalHalf flexStart>
+            <Element flex spaceBetween autoBottomMargin className="col-10">
+              <Image contain small src={news} className="col-1--mobile" />
+              <BodyText
+                className="col-7 col-8--mobile link"
+                style={{ marginRight: '2rem' }}
+                heading={{
+                  title: t('Reviews'),
+                  level: 'h3',
+                }}
+              />
+            </Element>
+
+            <BodyText
+              className="spacing--small link"
+              headingFont
+              text={['I rarely comment on videos, but I felt that I needed to let you know: This is pedagogically beautiful. Very well done. Please don\'t let this be the last of this kind of videos.',
+                'I am a newbie in this field & I must tell you this is the most amazing ML video I\'ve seen until now. Thank u so much!',
+                'This is incredibly well presented. Thank you. Amazing work. A great teacher can be recognized by the ability to present information in such way, that even an absolute amateur is able to comprehend the basic concepts. And from an amateurs point of view, this is definitely the case with you.']}
+            />
+        </Element>
       </Element>
     </Banner>
   );
