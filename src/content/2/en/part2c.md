@@ -9,14 +9,21 @@ lang: en
 
 In this section, we will look at feasible applications of Large Language Models.
 
-### Slides
-No Slides.
+### LLM Use-cases
+[THE text PROJECT: AI-powered tools for rappersm writers and wordsmiths](https://textfx.withgoogle.com/)
 
-### Content
-Examples of System 1 and System 2 tasks\
-The "Human in the loop" process\
-Chatting with books, and roaming the internet!
+[Chatting with Books](https://www.pdfgear.com/)
+
+[Prompt Gallery](https://developers.generativeai.google/prompt-gallery)
+
+[Maker Suite](https://makersuite.google.com/app/home)
+
+[Fine Tuning](https://makersuite.google.com/app/tuned_models/new_tuned_model)
 
 ### Resources
+[Jailbreak chat](https://www.jailbreakchat.com/)
 
+[Gary Marus' Twitter](https://twitter.com/GaryMarcus)
+
+[Jailbreaking LLMs](https://arxiv.org/pdf/2305.13860.pdf)
 </div>
