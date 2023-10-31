@@ -74,10 +74,12 @@
   "en": [
     {
       "image": "kartik.jpg",
-      "companyLogo": "houston.svg",
+      "companyLogo": "",
       "text": [
-        "Kartik Chincholikar recieved the Bachelors Degree in Mechanical Engineering from the Maharashtra Institute of Technology, under the affiliation of Savitribai Phule Pune University. His pedagogical work has been acknowledged by professors and leading researchers at the University of Amsterdam, University of Toronto, University of Pennsylvania, Qualcomm and by the popular AI Youtube channel 'Machine Learning Street Talk'. Kartik has served as a Research Associate and Teaching Assistant at Equitech Futures, a Chicago based digital campus for emerging innovators. His current interests are in exposing non-technical audiences to modern AI tools, making education of the highest quality accessible to all in multiple languages, and studying Geometric Deep Learning.",
-        "Prior to taking interest in AI, he has been a Badminton Coach for 5 years. He run the popular Youtube channel Badminton School, which teaches the basics of Badminton in Hindi. Find more information about Kartik at his [personal website](https://kartikchincholikar.github.io/)"
+        "Kartik Chincholikar recieved his Bachelors Degree in Mechanical Engineering from the Maharashtra Institute of Technology, Pune in affiliation with Savitribai Phule Pune University. Kartik has served as a Research Associate and Teaching Assistant at Equitech Futures, a Chicago based digital campus for emerging innovators.",
+        "His pedagogical work has been acknowledged by professors and leading researchers at the University of Amsterdam, University of Toronto, University of Pennsylvania, Qualcomm and also by the popular AI Youtube channel 'Machine Learning Street Talk'. ",
+        "His current interests are in exposing non-technical audiences to modern AI tools, making education of the highest quality accessible to all in multiple languages, and studying Geometric Deep Learning. ",
+        "Prior to taking interest in AI, he has been a Badminton Coach for 5 years. He run the popular Youtube channel Badminton School, which teaches the basics of Badminton in Hindi. Find more information about Kartik at his personal website : https://kartikchincholikar.github.io/"
       ],
       "name": "Kartik Chincholikar",
       "title": "Deep Learner"
