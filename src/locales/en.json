@@ -15,7 +15,7 @@
   "navigation": {
     "aboutCourse": "About course",
     "courseContents": "Course contents",
-    "faq": "FAQ",
+    "faq": "Painting Challenge",
     "partners": "Team",
     "challenge": "Challenge",
     "searchLinkSrLabel": "Search from the material"
@@ -48,7 +48,7 @@
     "startCourseButton": "View Coursework",
     "announcementsTitle": "  Location",
     "authorsTitle": "  Duration",
-    "courseNameTitle": "for Subject Matter Experts and Students",
+    "courseNameTitle": "for Subject Matter Experts and Students of all disciplines.",
     "codeConduct": "  Code of Conduct"
   }
 }
