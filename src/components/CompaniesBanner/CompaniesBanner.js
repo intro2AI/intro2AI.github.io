@@ -11,6 +11,7 @@ import React from 'react';
 import snakeCase from 'lodash/fp/snakeCase';
 import { useTranslation } from 'react-i18next';
 import getTranslationPath from '../../utils/getTranslationPath';
+import news from '../../images/noun_news_1248039.svg';
 
 const partners = [
 
@@ -102,7 +103,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 className="col-7 col-8--mobile link"
                 style={{ marginRight: '2rem' }}
                 heading={{
-                  title: t('Reviews'),
+                  title: t('Testimonials'),
                   level: 'h3',
                 }}
               />
