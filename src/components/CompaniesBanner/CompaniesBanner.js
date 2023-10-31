@@ -17,7 +17,11 @@ const partners = [
 ];
 
 const reviewCarousel = (() => {
-  const reviews = document.querySelectorAll('.review');
+  if (typeof document !== "undefined") {
+      const reviews = document.querySelectorAll('.review');
+  } else {
+      // document does not exist
+  }
   let currentReviewIndex = 0;
 
   function showNextReview() {
