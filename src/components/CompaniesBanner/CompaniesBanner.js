@@ -75,6 +75,31 @@ const inChallenge = [
 
 export const CompaniesBanner = ({ isFrontPage, lang }) => {
   const { t } = useTranslation();
+  const reviewCarousel = (() => {
+    const reviews = document.querySelectorAll('.review');
+    let currentReviewIndex = 0;
+  
+    function showNextReview() {
+      reviews[currentReviewIndex].classList.remove('active');
+      currentReviewIndex++;
+      if (currentReviewIndex >= reviews.length) {
+        currentReviewIndex = 0;
+      }
+      reviews[currentReviewIndex].classList.add('active');
+    }
+  
+    function start() {
+      setInterval(showNextReview, 5000);
+    }
+  
+    return {
+      start,
+    };
+  })();
+  
+  document.addEventListener('DOMContentLoaded', reviewCarousel.start);
+
+
 
   return (
     <Banner
@@ -93,6 +118,23 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
             </Link>
           </Element>
         )}
+        <div class="review-carousel">
+          <div class="review active">
+            <h3>5/5 stars</h3>
+            <p>This product is amazing! It works exactly as advertised and I am so glad I bought it.</p>
+            <span class="reviewer-name">John Doe</span>
+          </div>
+          <div class="review">
+            <h3>4/5 stars</h3>
+            <p>This product is good, but it could be better. The quality is good and it works well, but the price is a bit high.</p>
+            <span class="reviewer-name">Jane Smith</span>
+          </div>
+          <div class="review">
+            <h3>3/5 stars</h3>
+            <p>This product is okay. It works, but it's not great. The quality is not the best and it's a bit difficult to use.</p>
+            <span class="reviewer-name">Peter Jones</span>
+          </div>
+        </div>
       </Element>
     </Banner>
   );
