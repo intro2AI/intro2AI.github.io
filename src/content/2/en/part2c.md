@@ -26,4 +26,6 @@ In this section, we will look at feasible applications of Large Language Models.
 [Gary Marus' Twitter](https://twitter.com/GaryMarcus)
 
 [Jailbreaking LLMs](https://arxiv.org/pdf/2305.13860.pdf)
+
+[Jailbreaking LLMs](https://jailbreaking-llms.github.io/)
 </div>
