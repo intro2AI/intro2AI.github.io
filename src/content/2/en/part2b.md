@@ -12,10 +12,17 @@ This section will give you an intuitive understanding of how Large Language Mode
 ### Slides
 No Slides.
 
-### Content
-We will Explore the [Embedding Space](https://projector.tensorflow.org/)\
-Undertand the Attention Mechanism.
+### Playground
+[Exploring the Embedding Space](https://projector.tensorflow.org/)
+
+[Exploring word analogies](https://lamyiowce.github.io/word2viz/)
+
+[An Explorable BERT](https://huggingface.co/spaces/exbert-project/exbert)
+
+[What have language models learnt?](https://pair.withgoogle.com/explorables/fill-in-the-blank/)
+
 
 ### Resources
+[Generative AI exists because of the Transformer](https://ig.ft.com/generative-ai/)
 
 </div>
