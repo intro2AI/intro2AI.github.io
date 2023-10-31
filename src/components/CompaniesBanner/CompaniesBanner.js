@@ -93,6 +93,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
             </Link>
           </Element>
         )}
+          
       </Element>
     </Banner>
   );
