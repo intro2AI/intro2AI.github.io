@@ -10,7 +10,7 @@ import Layout from '../layout';
 import { PartBanner } from '../PartBanner/PartBanner';
 import SEO from '../seo';
 import content from '../../content/pages/about.json';
-import landingImage from '../../images/landing.svg';
+import landingImage from '../../images/landing.webp';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
 
