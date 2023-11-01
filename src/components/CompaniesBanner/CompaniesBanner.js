@@ -88,16 +88,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
     >
       <Element className="container spacing spacing--after">
         <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
-          {isFrontPage && (
-            <Element flex spaceAround className="col-10 spacing">
-              <Link
-                className="about__challenge-button"
-                to={getTranslationPath(lang, '/challenge')}
-              >
-                {t('challengePage:infoButton')}
-              </Link>
-            </Element>
-          )}
+
           <Element flex horizontalHalf flexStart>
               <Element flex spaceBetween autoBottomMargin className="col-10">
                 <Image contain small src={news} className="col-1--mobile" />
@@ -145,6 +136,17 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 text={["Be honest, kind and respectful. There are no stupid questions. Every mistake is an opportunity to learn.",""]}
               />
           </Element>
+
+          {isFrontPage && (
+            <Element flex spaceAround className="col-10 spacing" paddingTop={15} paddingBottom={15}>
+              <Link
+                className="about__challenge-button"
+                to={getTranslationPath(lang, '/challenge')}
+              >
+                {t('challengePage:infoButton')}
+              </Link>
+            </Element>
+          )}
         </Element>
       </Element>
     </Banner>

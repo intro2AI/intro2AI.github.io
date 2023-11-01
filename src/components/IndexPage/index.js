@@ -21,8 +21,6 @@ import licenceIcon from '../../images/cc-logo.svg';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
 import news from '../../images/noun_news_1248039.svg';
-import codeconduct from '../../images/codeconduct.svg';
-import yliopistoLogo from '../../images/company_logos/uoh_centre.svg';
 import getTranslationPath from '../../utils/getTranslationPath';
 
 const IndexPage = ({ lang, title = 'Full stack' }) => {
@@ -135,31 +133,6 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
               text={["A computer with internet access, time, dedication, and the will to apply AI to a specific domain. No Programming knowledge is required. Open for all humans aged 14 and above. ",""]}
             />
           </Element>
-
-          <Element flex horizontalHalf flexStart>
-            <Element
-              flex
-              spaceBetween
-              autoBottomMargin
-              className="col-10"
-            >
-              <Image contain small src={codeconduct} className="col-1--mobile" />
-              <BodyText
-                className="col-7 col-8--mobile link"
-                style={{ marginRight: '2rem' }}
-                heading={{
-                  title: t('homePage:codeConduct'),
-                  level: 'h3',
-                }}
-              />
-            </Element>
-
-            <BodyText
-              className="spacing--small link"
-              headingFont
-              text={["Be honest, kind and respectful. There are no stupid questions. Every mistake is an opportunity to learn.",""]}
-            />
-          </Element>
         </Element>
       </Element>
 
@@ -192,7 +165,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
                 <Some key={icon} iconName={icon} />
               ))}
             </div>
-            
+
             <Element flex spaceBetween className="col-3 col-10--mobile">
               <a
                 target="_BLANK"
