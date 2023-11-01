@@ -1,5 +1,6 @@
 import './CompaniesBanner.scss';
 
+import codeconduct from '../../images/codeconduct.svg';
 import { Banner } from '../Banner/Banner';
 import { BodyText } from '../BodyText/BodyText';
 import { ContentLiftup } from '../ContentLiftup/ContentLiftup';
@@ -85,37 +86,65 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
       className="spacing--after"
       id="challenge"
     >
-      <Element className="container" flex>
-        {isFrontPage && (
-          <Element flex spaceAround className="col-10 spacing">
-            <Link
-              className="about__challenge-button"
-              to={getTranslationPath(lang, '/challenge')}
-            >
-              {t('challengePage:infoButton')}
-            </Link>
-          </Element>
-        )}
-        <Element flex horizontalHalf flexStart>
-            <Element flex spaceBetween autoBottomMargin className="col-10">
-              <Image contain small src={news} className="col-1--mobile" />
-              <BodyText
-                className="col-7 col-8--mobile link"
-                style={{ marginRight: '2rem' }}
-                heading={{
-                  title: t('Testimonials'),
-                  level: 'h3',
-                }}
-              />
+      <Element className="container spacing spacing--after">
+        <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
+          {isFrontPage && (
+            <Element flex spaceAround className="col-10 spacing">
+              <Link
+                className="about__challenge-button"
+                to={getTranslationPath(lang, '/challenge')}
+              >
+                {t('challengePage:infoButton')}
+              </Link>
             </Element>
+          )}
+          <Element flex horizontalHalf flexStart>
+              <Element flex spaceBetween autoBottomMargin className="col-10">
+                <Image contain small src={news} className="col-1--mobile" />
+                <BodyText
+                  className="col-7 col-8--mobile link"
+                  style={{ marginRight: '2rem' }}
+                  heading={{
+                    title: t('Testimonials'),
+                    level: 'h3',
+                  }}
+                />
+              </Element>
 
-            <BodyText
-              className="spacing--small link"
-              headingFont
-              text={['I rarely comment on videos, but I felt that I needed to let you know: This is pedagogically beautiful. Very well done. Please don\'t let this be the last of this kind of videos.',
-                'I am a newbie in this field & I must tell you this is the most amazing ML video I\'ve seen until now. Thank u so much!',
-                'This is incredibly well presented. Thank you. Amazing work. A great teacher can be recognized by the ability to present information in such way, that even an absolute amateur is able to comprehend the basic concepts. And from an amateurs point of view, this is definitely the case with you.']}
-            />
+              <BodyText
+                className="spacing--small link"
+                headingFont
+                fontStyle="italic"
+                text={[
+        'I am a newbie in this field & I must tell you this is the most amazing ML video I\'ve seen until now. Thank u so much! - Shilpa Rani',
+                  'One more comment to express how you have summarized me a day of research on those learning. Amazing teaching skills. Please continue doing what you are talented at: explaining simply complex notions ! - Quentin Delfosse']}
+              />
+          </Element>
+
+          <Element flex horizontalHalf flexStart>
+              <Element
+                flex
+                spaceBetween
+                autoBottomMargin
+                className="col-10"
+              >
+                <Image contain small src={codeconduct} className="col-1--mobile" />
+                <BodyText
+                  className="col-7 col-8--mobile link"
+                  style={{ marginRight: '2rem' }}
+                  heading={{
+                    title: t('homePage:codeConduct'),
+                    level: 'h3',
+                  }}
+                />
+              </Element>
+
+              <BodyText
+                className="spacing--small link"
+                headingFont
+                text={["Be honest, kind and respectful. There are no stupid questions. Every mistake is an opportunity to learn.",""]}
+              />
+          </Element>
         </Element>
       </Element>
     </Banner>
