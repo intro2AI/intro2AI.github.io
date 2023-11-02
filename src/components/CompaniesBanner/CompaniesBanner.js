@@ -91,7 +91,6 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
 
           <Element flex horizontalHalf flexStart>
               <Element flex spaceBetween autoBottomMargin className="col-10">
-                <Image contain small src={news} className="col-1--mobile" />
                 <BodyText
                   className="col-7 col-8--mobile link"
                   style={{ marginRight: '2rem' }}
@@ -108,7 +107,8 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 fontStyle="italic"
                 text={[
         'I am a newbie in this field & I must tell you this is the most amazing ML video I\'ve seen until now. Thank u so much! - Shilpa Rani',
-                  'One more comment to express how you have summarized me a day of research on those learning. Amazing teaching skills. Please continue doing what you are talented at: explaining simply complex notions ! - Quentin Delfosse']}
+                  'One more comment to express how you have summarized me a day of research on those learning. Amazing teaching skills. Please continue doing what you are talented at: explaining simply complex notions ! - Quentin Delfosse',
+                '']}
               />
           </Element>
 
@@ -119,7 +119,6 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 autoBottomMargin
                 className="col-10"
               >
-                <Image contain small src={codeconduct} className="col-1--mobile" />
                 <BodyText
                   className="col-7 col-8--mobile link"
                   style={{ marginRight: '2rem' }}

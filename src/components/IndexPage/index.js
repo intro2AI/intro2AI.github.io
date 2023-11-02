@@ -15,7 +15,7 @@ import { TripleBorder } from '../TripleBorder/TripleBorder';
 import cc from '../../images/cc.svg';
 import colors from '../../colors';
 import content from '../../content/pages/main.json';
-import houstonLogo from '../../images/Houston_big.svg';
+import houstonLogo from '../../images/theclock.webp';
 import landingImage from '../../images/landing.webp';
 import licenceIcon from '../../images/cc-logo.svg';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
@@ -91,7 +91,6 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
         <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
           <Element flex horizontalHalf flexStart>
             <Element flex spaceBetween autoBottomMargin className="col-10">
-              <Image contain small src={news} className="col-1--mobile" />
               <BodyText
                 className="col-7 col-8--mobile link"
                 style={{ marginRight: '2rem' }}
@@ -116,7 +115,6 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
               autoBottomMargin
               className="col-10"
             >
-              <Image contain small src={cc} className="col-1--mobile" />
               <BodyText
                 className="col-7 col-8--mobile link"
                 style={{ marginRight: '2rem' }}
@@ -157,7 +155,6 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
                 noPadding
                 headingFont
                 className="link"
-                style={{ paddingTop: '2.111rem' }}
                 text={contacts}
               />
 
@@ -171,9 +168,9 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
                 target="_BLANK"
                 rel="noopener noreferrer"
                 className="col-10 col-4--mobile"
-                href="https://www.houston-inc.com"
+                href="https://www.youtube.com/channel/UCq5hj2YogHzxCqqyjou2i8A"
               >
-                <Image contain src={houstonLogo} alt="Houston Inc. logo" />
+                <Image contain src={houstonLogo} alt="theClock logo" />
               </a>
 
               <BodyText headingFont className="link" text={houston} />

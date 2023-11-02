@@ -49,7 +49,7 @@ class Accordion extends Component {
 
     return (
       <div
-        className={`accordion__container col-8 push-right-1 ${containerClassName}`}
+        className={`accordion__container col-8 ${containerClassName}`}
       >
         <button
           className={`accordion accordion__title ${
