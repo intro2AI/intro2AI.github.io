@@ -3,11 +3,10 @@ import './Some.scss';
 import React from 'react';
 
 const urls = {
-  github: 'https://github.com/FullStack-HY/FullStack-Hy.github.io',
-  twitter: 'https://twitter.com/moocfi',
-  facebook: 'https://www.facebook.com/Moocfi',
+  github: 'https://github.com/kartikchincholikar',
+  twitter: 'https://twitter.com/KartikC14',
   youtube:
-    'https://www.youtube.com/watch?v=BZexOyQZMMc&list=PLumQiZ25uijis31zaRL7rhzLalSwLqUtm',
+    'https://www.youtube.com/channel/UCq5hj2YogHzxCqqyjou2i8A',
 };
 
 export const Some = ({ iconName }) => (
