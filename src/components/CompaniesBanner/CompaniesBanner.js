@@ -132,20 +132,28 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
               <BodyText
                 className="spacing--small link"
                 headingFont
-                text={["Be honest, kind and respectful. There are no stupid questions. Every mistake is an opportunity to learn.",""]}
+                text={[
+                'The course material and resources are available free of charge and you can audit them from anywhere at anytime, at your leisure.',
+                'INDIA',
+                '4000 Rs (Standard) / 3000 Rs (Student)',  
+                'INTERNATIONAL', 
+                '50 $ (Standard) / 40 $ (Student)'  
+                ]}
               />
+
+              {isFrontPage && (
+              <Element flex spaceAround className="col-10 spacing" paddingTop={15} paddingBottom={15}>
+                <Link
+                  className="about__challenge-button"
+                  to={getTranslationPath(lang, '/challenge')}
+                >
+                  {t('challengePage:infoButton')}
+                </Link>
+              </Element>
+              )}
           </Element>
 
-          {isFrontPage && (
-            <Element flex spaceAround className="col-10 spacing" paddingTop={15} paddingBottom={15}>
-              <Link
-                className="about__challenge-button"
-                to={getTranslationPath(lang, '/challenge')}
-              >
-                {t('challengePage:infoButton')}
-              </Link>
-            </Element>
-          )}
+          
         </Element>
       </Element>
     </Banner>

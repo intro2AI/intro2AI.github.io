@@ -144,11 +144,20 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
           backgroundColor={colors['main']}
           className="col-10 centered--mobile"
         >
-          <Element flex spaceAround autoMargin className="col-10 col-8--mobile spacing--small">
+          <Element
+            flex
+            spaceAround
+            className="col-10 col-8--mobile spacing--small"
+          >
             <div className="col-3 col-10--mobile">
-              <BodyText noPadding headingFont className="link" text={contacts} />
+              <BodyText
+                noPadding
+                headingFont
+                className="link"
+                text={contacts}
+              />
 
-              {[ 'github', 'twitter', 'facebook', 'youtube' ].map((icon) => (
+              {['github', 'twitter', 'youtube'].map(icon => (
                 <Some key={icon} iconName={icon} />
               ))}
             </div>
@@ -162,8 +171,6 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
               >
                 <Image contain src={houstonLogo} alt="theClock logo" />
               </a>
-
-              <BodyText headingFont className="link" text={houston} />
             </Element>
           </Element>
         </TripleBorder>

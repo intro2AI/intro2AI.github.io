@@ -435,36 +435,3 @@ a {
   }
 }
 
-/* Center the contents of the element vertically and horizontally for all screen sizes. */
-.col-10.col-8--mobile.spacing--small {
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* On mobile devices, center the contents of the element horizontally. */
-@media (max-width: 575px) {
-  .col-10.col-8--mobile.spacing--small {
-    justify-content: center;
-  }
-}
-
-/* Center the contents of the .col-3.col-10--mobile element vertically and horizontally. */
-.col-10.col-8--mobile.spacing--small .col-3.col-10--mobile {
-  align-items: center;
-  justify-content: space-around;
-}
-
-/* Center the text of the .link element in the .col-3.col-10--mobile element. */
-.col-10.col-8--mobile.spacing--small .col-3.col-10--mobile .link {
-  text-align: center;
-}
-
-/* Add some margin between the .Some icons in the .col-3.col-10--mobile element. */
-.col-10.col-8--mobile.spacing--small .col-3.col-10--mobile .Some {
-  margin: 0 5px;
-}
-
-/* Add some margin to the bottom of the a element in the .col-3.col-10--mobile element. */
-.col-10.col-8--mobile.spacing--small .col-3.col-10--mobile a {
-  margin-bottom: 10px;
-}
