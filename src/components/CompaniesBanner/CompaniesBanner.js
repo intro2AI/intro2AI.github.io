@@ -145,7 +145,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
               <Element flex spaceAround className="col-10 spacing" paddingTop={15} paddingBottom={15}>
                 <Link
                   className="about__challenge-button"
-                  to={https://docs.google.com/forms/d/1zg5v2t6hGU5xoigQr2G02VAYYYQ3xx3Ai5DWwm_I0I0/edit}
+                  to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform"}
                 >
                   {t('challengePage:infoButton')}
                 </Link>
