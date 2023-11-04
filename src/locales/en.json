@@ -15,15 +15,15 @@
   "navigation": {
     "aboutCourse": "About course",
     "courseContents": "Course contents",
-    "faq": "Painting Challenge",
+    "faq": "FAQ",
     "partners": "Team",
-    "challenge": "Challenge",
+    "challenge": "Painting Challenge",
     "searchLinkSrLabel": "Search from the material"
   },
   "challengePage": {
-    "aboutTitle": "First steps into AI",
-    "joinTitle": "Companies, Heed The Call!",
-    "registerButton": "Register your company to Full Stack challenge",
+    "aboutTitle": "Use words as latent brush strokes to compliment the traditional tools of art",
+    "joinTitle": "Tools",
+    "registerButton": "Gallery",
     "nameLabel": "Name",
     "namePlaceholder": "Jane Doe",
     "titleLabel": "Title",
@@ -48,7 +48,7 @@
     "startCourseButton": "View Coursework",
     "announcementsTitle": "  Information",
     "authorsTitle": "  Duration",
-    "courseNameTitle": "for Subject Matter Experts and Students of all disciplines.",
+    "courseNameTitle": "for Chefs, Medical Professionals, Primatologiests, Police,  Fishermen, High Schoolers, Chemists, Radio Hosts, Business Analysts, Marine Archaeologists, Lawyers, Artists,  and all other Domain Experts.",
     "codeConduct": "  Registeration Fees"
   }
 }

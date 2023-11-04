@@ -30,16 +30,11 @@ const ChallengePage = ({
         description={seoDescription}
         keywords={[
           ...mainSEOtags,
-          'fullstackhaaste',
-          'full stack haaste',
-          'elisa',
-          'terveystalo',
+          'multiplicity',
+          'generativeAI',
+          'Painting',
+          'Generative Art',
           'sympa',
-          'konecranes',
-          'unity technologies',
-          'täydennyskoulutus',
-          'koodari',
-          'haaste',
         ]}
       />
 
@@ -78,11 +73,9 @@ const ChallengePage = ({
         </Element>
       </Element>
 
-      <CompaniesBanner lang={lang} />
-
       <SubHeader
         className="col-10 spacing--after centered"
-        text="#fullstackchallenge"
+        text="#GenerativeArt"
         headingLevel="h3"
       />
     </Layout>

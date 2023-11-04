@@ -128,7 +128,11 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
             <BodyText
               className="spacing--small link"
               headingFont
-              text={["A computer with internet access, time, dedication, and the will to apply AI to a specific domain. No Programming knowledge is required. Open for all humans aged 14 and above. ",""]}
+              text={[
+                "Subject Matter Experts and Students of all disciples (aged 14+) are welcome to apply",
+                "You will need a computer with internet access, time, dedication, and the will to apply AI to a specific domain.",
+                "No complicated Math or Programming knowledge is required.",
+                ""]}
             />
           </Element>
         </Element>
