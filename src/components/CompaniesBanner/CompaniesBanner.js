@@ -95,7 +95,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                   className="col-7 col-8--mobile link"
                   style={{ marginRight: '2rem' }}
                   heading={{
-                    title: t('Testimonials'),
+                    title: t('What students have to say'),
                     level: 'h3',
                   }}
                 />
@@ -108,7 +108,9 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 text={[
         'I am a newbie in this field & I must tell you this is the most amazing ML video I\'ve seen until now. Thank u so much! - Shilpa Rani',
                   'One more comment to express how you have summarized me a day of research on those learning. Amazing teaching skills. Please continue doing what you are talented at: explaining simply complex notions ! - Quentin Delfosse',
-                '']}
+                'This is a super strong and well-made bit of exposition. Well done! - Anil Keshwani',
+                '',
+              ]}
               />
           </Element>
 
@@ -133,11 +135,9 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 className="spacing--small link"
                 headingFont
                 text={[
+                'INDIA\n4000 Rs (Standard) / 3000 Rs (Student)',
+                'INTERNATIONAL\n50 $ (Standard) / 40 $ (Student)', 
                 'The course material and resources are available free of charge and you can audit them from anywhere at anytime, at your leisure.',
-                'INDIA',
-                '4000 Rs (Standard) / 3000 Rs (Student)',  
-                'INTERNATIONAL', 
-                '50 $ (Standard) / 40 $ (Student)'  
                 ]}
               />
 

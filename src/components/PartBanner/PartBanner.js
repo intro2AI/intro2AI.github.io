@@ -22,7 +22,7 @@ const partNameTranslations = {
   en: [
     'The Basics',
     'How to use Domain Knowledge',
-    'Chatgpty Workflows',
+    'Language Modelling',
     'Project',
     'Testing Express servers, user administration',
     'Testing React apps',

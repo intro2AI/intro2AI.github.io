@@ -43,13 +43,6 @@ const CompaniesPage = ({ lang, title, seoDescription }) => {
       />
 
       <Element className="container">
-        <BodyText
-          className="col-10 spacing"
-          heading={{
-            title: t('companiesPage:storiesTitle'),
-            level: 'h1',
-          }}
-        />
 
         {langStories.map(story => (
           <DeveloperStory key={story.name} {...story} lang={lang} />

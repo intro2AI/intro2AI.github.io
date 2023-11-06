@@ -31,7 +31,7 @@ class NotFoundPage extends Component {
     return (
       <Layout>
         <SEO
-          title={`${title} | Full stack open`}
+          title={`${title} | AI open`}
           lang={this.state.siteLanguage}
         />
 

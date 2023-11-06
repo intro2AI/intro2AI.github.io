@@ -23,7 +23,7 @@ import mainSEOtags from '../../content/seo/mainSEOtags';
 import news from '../../images/noun_news_1248039.svg';
 import getTranslationPath from '../../utils/getTranslationPath';
 
-const IndexPage = ({ lang, title = 'Full stack' }) => {
+const IndexPage = ({ lang, title = '---AI---' }) => {
   const { t } = useTranslation();
 
   const {
@@ -129,7 +129,7 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
               className="spacing--small link"
               headingFont
               text={[
-                "Subject Matter Experts and Students of all disciples (aged 14+) are welcome to apply",
+                "Subject Matter Experts and Students of all disciplines (aged 14+) are welcome to apply",
                 "You will need a computer with internet access, time, dedication, and the will to apply AI to a specific domain.",
                 "No complicated Math or Programming knowledge is required.",
                 ""]}
@@ -144,13 +144,13 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
 
       <Element flex spaceBetween className="container col-10 spacing--after">
         <TripleBorder
-          largeMargin
           backgroundColor={colors['main']}
           className="col-10 centered--mobile"
         >
           <Element
             flex
             spaceAround
+            style={{ padding: 8 }}
             className="col-10 col-8--mobile spacing--small"
           >
             <div className="col-3 col-10--mobile">
@@ -164,6 +164,12 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
               {['github', 'twitter', 'youtube'].map(icon => (
                 <Some key={icon} iconName={icon} />
               ))}
+              <BodyText
+                noPadding
+                headingFont
+                className="link"
+                text={["",""]}
+              />
             </div>
 
             <Element flex spaceBetween className="col-3 col-10--mobile">
@@ -173,8 +179,14 @@ const IndexPage = ({ lang, title = 'Full stack' }) => {
                 className="col-10 col-4--mobile"
                 href="https://www.youtube.com/channel/UCq5hj2YogHzxCqqyjou2i8A"
               >
-                <Image contain src={houstonLogo} alt="theClock logo" />
+                <Image contain src={houstonLogo} alt="Sun Water Internet" />
               </a>
+              <BodyText
+                noPadding
+                headingFont
+                className="link"
+                text={["",""]}
+              />
             </Element>
           </Element>
         </TripleBorder>

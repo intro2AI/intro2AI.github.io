@@ -6,20 +6,15 @@ import './Footer.scss';
 
 import Element from '../Element/Element';
 import { Image } from '../Image/Image';
-import houston from '../../images/company_logos/houston.svg';
+import houston from '../../images/company_logos/theclock_white.webp';
 import { getNavigation } from '../Navigation/Navigation';
 import yliopisto from '../../images/company_logos/uoh_centre.svg';
 
 const images = [
   {
-    src: yliopisto,
-    alt: 'Helsingin yliopiston logo',
-    href: 'https://www.helsinki.fi/',
-  },
-  {
     src: houston,
-    alt: 'Houston inc. logo',
-    href: 'https://www.houston-inc.com/',
+    alt: 'Sun water Internet',
+    href: 'https://bhp-public.oerproject.com/',
   },
 ];
 
