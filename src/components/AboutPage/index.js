@@ -32,25 +32,6 @@ const AboutPage = ({ title, lang }) => {
         ]}
       />
 
-      <Banner style={{ paddingBottom: 0, overflow: 'hidden' }}>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            marginBottom: '-70px',
-          }}
-          className="container"
-        >
-          <Image
-            className="col-4 push-right-2"
-            contain
-            style={{ margin: 0 }}
-            alt="Stacked cubes with React logo and JavaScript text"
-            src={landingImage}
-          />
-        </div>
-      </Banner>
-
       <Element className="container spacing spacing--mobile--large">
         <Element className="col-8 push-right-1">
           <BodyText

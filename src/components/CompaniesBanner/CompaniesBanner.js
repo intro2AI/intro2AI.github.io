@@ -135,14 +135,14 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 className="spacing--small link"
                 headingFont
                 text={[
-                'INDIA\n4000 Rs (Standard) / 3000 Rs (Student)',
-                'INTERNATIONAL\n50 $ (Standard) / 40 $ (Student)', 
+                'INDIA<br>4000 Rs (Standard) / 3000 Rs (Student)',
+                'INTERNATIONAL<br>50 $ (Standard) / 40 $ (Student)', 
                 'The course material and resources are available free of charge and you can audit them from anywhere at anytime, at your leisure.',
                 ]}
               />
 
               {isFrontPage && (
-              <Element flex spaceAround className="col-10 spacing" paddingTop={15} paddingBottom={15}>
+              <Element flex spaceAround className="col-10 spacing" paddingTop={2} paddingBottom={5}>
                 <Link
                   className="about__challenge-button"
                   to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform"}

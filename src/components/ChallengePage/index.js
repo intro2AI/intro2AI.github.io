@@ -10,7 +10,7 @@ import { Image } from '../Image/Image';
 import Layout from '../layout';
 import SEO from '../seo';
 import { SubHeader } from '../SubHeader/SubHeader';
-import landingImage from '../../images/haaste.svg';
+import landingImage from '../../images/mona.webp';
 import mainSEOtags from '../../content/seo/mainSEOtags';
 
 const ChallengePage = ({

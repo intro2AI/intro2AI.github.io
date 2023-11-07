@@ -160,10 +160,6 @@ const IndexPage = ({ lang, title = '---AI---' }) => {
                 className="link"
                 text={contacts}
               />
-
-              {['github', 'twitter', 'youtube'].map(icon => (
-                <Some key={icon} iconName={icon} />
-              ))}
               <BodyText
                 noPadding
                 headingFont
@@ -187,6 +183,9 @@ const IndexPage = ({ lang, title = '---AI---' }) => {
                 className="link"
                 text={["",""]}
               />
+              {['github', 'twitter', 'youtube'].map(icon => (
+                <Some key={icon} iconName={icon} />
+              ))}
             </Element>
           </Element>
         </TripleBorder>
