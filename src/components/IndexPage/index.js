@@ -129,8 +129,8 @@ const IndexPage = ({ lang, title = '---AI---' }) => {
               className="spacing--small link"
               headingFont
               text={[
-                "Subject Matter Experts and Students of all disciplines (aged 14+) are welcome to apply",
-                "You will need a computer with internet access, time, dedication, and the will to apply AI to a specific domain.",
+                "This course is designed for Subject Matter Experts and Students of all disciplines (aged 14+).",
+                "You will need a computer with internet access, time, dedication, and the will to apply AI to a specific domain of your interest.",
                 "No complicated Math or Programming knowledge is required.",
                 ""]}
             />
@@ -154,6 +154,9 @@ const IndexPage = ({ lang, title = '---AI---' }) => {
             className="col-10 col-8--mobile spacing--small"
           >
             <div className="col-3 col-10--mobile">
+              {['github', 'twitter', 'youtube'].map(icon => (
+                <Some key={icon} iconName={icon} />
+              ))}
               <BodyText
                 noPadding
                 headingFont
@@ -183,9 +186,6 @@ const IndexPage = ({ lang, title = '---AI---' }) => {
                 className="link"
                 text={["",""]}
               />
-              {['github', 'twitter', 'youtube'].map(icon => (
-                <Some key={icon} iconName={icon} />
-              ))}
             </Element>
           </Element>
         </TripleBorder>

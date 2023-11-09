@@ -106,7 +106,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 headingFont
                 fontStyle="italic"
                 text={[
-        'I am a newbie in this field & I must tell you this is the most amazing ML video I\'ve seen until now. Thank u so much! - Shilpa Rani',
+        'I am a newbie in this field & I must tell you this is the most amazing <a href="https://www.youtube.com/watch?v=BePQBWPnYuE">ML video</a> I\'ve seen until now. Thank u so much! - Shilpa Rani',
                   'One more comment to express how you have summarized me a day of research on those learning. Amazing teaching skills. Please continue doing what you are talented at: explaining simply complex notions ! - Quentin Delfosse',
                 'This is a super strong and well-made bit of exposition. Well done! - Anil Keshwani',
                 '',

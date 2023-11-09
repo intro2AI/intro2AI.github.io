@@ -10,22 +10,15 @@ lang: en
 In this section, we will look at feasible applications of Large Language Models.
 
 ### LLM Use-cases
-[THE text PROJECT: AI-powered tools for rappersm writers and wordsmiths](https://textfx.withgoogle.com/)
-
-[Chatting with Books](https://www.pdfgear.com/)
-
-[Prompt Gallery](https://developers.generativeai.google/prompt-gallery)
-
-[Maker Suite](https://makersuite.google.com/app/home)
-
-[Fine Tuning](https://makersuite.google.com/app/tuned_models/new_tuned_model)
+[THE text PROJECT: AI-powered tools for rappersm writers and wordsmiths](https://textfx.withgoogle.com/)<br>
+[Chatting with Books](https://www.pdfgear.com/)<br>
+[Prompt Gallery](https://developers.generativeai.google/prompt-gallery)<br>
+[Maker Suite](https://makersuite.google.com/app/home)<br>
+[Fine Tuning](https://makersuite.google.com/app/tuned_models/new_tuned_model)<br>
 
 ### Resources
-[Jailbreak chat](https://www.jailbreakchat.com/)
-
-[Gary Marus' Twitter](https://twitter.com/GaryMarcus)
-
-[Jailbreaking LLMs](https://arxiv.org/pdf/2305.13860.pdf)
-
-[Jailbreaking LLMs](https://jailbreaking-llms.github.io/)
+[Jailbreak chat](https://www.jailbreakchat.com/)<br>
+[Gary Marus' Twitter](https://twitter.com/GaryMarcus)<br>
+[Jailbreaking LLMs 1](https://arxiv.org/pdf/2305.13860.pdf)<br>
+[Jailbreaking LLMs 2](https://jailbreaking-llms.github.io/)<br>
 </div>

@@ -58,7 +58,6 @@ const ChallengePage = ({
 
         <Element className="spacing--after col-6 push-right-2">
           <BodyText headingFont text={aboutContent} />
-
           <BodyText
             className="spacing"
             headingFont

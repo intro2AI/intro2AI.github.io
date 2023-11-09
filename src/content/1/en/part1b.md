@@ -9,20 +9,13 @@ lang: en
 
 How can we know that our AI system's performance is satisfactory?
 
-### Slides
-Download the slides here.
-
 ### Modeling Intution
-[Neural Network Decision Boundary](https://www.desmos.com/calculator/163ohyctri)
-
-[Neural Network Playgroud](https://shorturl.at/hjwx2)
+[Neural Network Decision Boundary](https://www.desmos.com/calculator/163ohyctri)<br>
+[Neural Network Playgroud](https://shorturl.at/hjwx2)<br>
 
 ### Playground
-[MLU Explain: Train, Test and Validation Datasets](https://mlu-explain.github.io/train-test-validation/)
-
-[Google Jamboard: Precision and Recall](https://jamboard.google.com/)
-
-[MLU Explain: Precision and Recall](https://mlu-explain.github.io/precision-recall/)
-
+[MLU Explain: Train, Test and Validation Datasets](https://mlu-explain.github.io/train-test-validation/)<br>
+[Google Jamboard: Precision and Recall](https://jamboard.google.com/)<br>
+[MLU Explain: Precision and Recall](https://mlu-explain.github.io/precision-recall/)<br>
 
 </div>
