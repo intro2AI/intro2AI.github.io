@@ -15,5 +15,4 @@ What is Data? In this section we will build a toy AI product and understand the 
 
 ### Resources
 
-
 </div>

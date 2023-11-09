@@ -7,12 +7,12 @@ lang: en
 
 <div class="content">
 
-Datasets are not always perfect. They are a reflection of us, thus making the AI mimic us.
+Datasets are not always perfect. They are a reflection of us.
 
 ### Playground
 
-[Hiring Bias in AI](https://www.survivalofthebestfit.com/)
-[Understanding Negative Feedbak Loops](https://negativefeedbackloops.github.io/)
+[Hiring Bias in AI](https://www.survivalofthebestfit.com/)<br>
+[Understanding Negative Feedback Loops](https://negativefeedbackloops.github.io/)
 
 ### Resources
 Should you use AI to decide who to give loans too?<br>

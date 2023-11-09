@@ -56,14 +56,13 @@
     ]
   },
   "en": {
-    "name": "General",
+    "name": "Course Mission",
     "intro": [
-      "We want to help domain experts think about the feasibility of AI solutions to domain specific workflows. The main goal is to demystify AI and teach the neccessary vocabulary required to get used to the AI way of thinking.",
-      "We have designed this course help experts to learn and build upon their expertise in a true Learning by Playing spirit. Intuitions come first, formulaes and code comes later. We will first trigger your curiosity, and then guide you on your path to undertanding a concept. No complicated Math or Programming knowledge is required as a prerequisite.",
-      "The course is worth 3-12 credits, and the content is the same as in the  <a href='https://github.com/FullStack-HY/FullStack-Hy.github.io'>Full stack course</a> held at the <a href='https://www.helsinki.fi/en/computer-science'>Department of Computer Science</a> at the University of Helsinki in Spring 2020. There is also an associated <a href='/osa0/yleista#full-stack-harjoitustyo'>project</a> that is worth 1-10 credits.",
-      "Partners and affiliates of the course include <a href='https://www.houston-inc.com/'>Houston Inc</a>, <a href='https://www.terveystalo.com/fi/Yritystietoa/Terveystalo-tyontantajana/Digital-Health/'>Terveystalo</a>, <a href='https://elisa.fi/'>Elisa</a>, <a href='https://www.kesko.fi/'>K-ryhmä</a>, <a href='https://www.instagram.com/unitytechnologies/?hl=en'>Unity Technologies</a> and <a href='https://careers.konecranes.com/Konecranes/'>Konecranes</a>. See <a href='https://www.youtube.com/watch?v=BZexOyQZMMc&list=PLumQiZ25uijis31zaRL7rhzLalSwLqUtm'>here for guest lectures</a> on course-related topics given by various experts from our partners and affiliates.",
-      "Participants are expected to have good programming skills, basic knowledge of web programming and databases, and to know the basics of working with the Git version-control system. You are also expected to have perseverance and the ability for independent problem solving and information seeking.",
-      "Part 0 of the course material goes through the content and conduct of the course in more detail. Make sure to read the material and instructions thoroughly."
+      "This course will help Domain Experts check the feasibility of an AI powered solution to a Domain Specific problem.",
+      "You will learn fundamental AI concepts, the necessary vocabulary, and a structured way of thinking to translate your domain expertise into AI powered solutions.",
+      "We believe in learning by playing. Intuitions come first, formulaes and code comes later. We will make you curious first, and then lay out beacons to guide you on your path to full understanding.",
+      "To take this course you will need a computer with internet access, time, dedication, and the will to apply AI to a specific domain of your interest. No complicated Math or Programming knowledge is required.",
+      "While the outcome of this course is well defined, participants are adviced to be prepared to go off on tangents, segues and mysterious trails which are to be found aplenty in this field of Modern AI."
     ],
     "info": [
       {
