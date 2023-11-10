@@ -145,7 +145,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
               <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
                 <Link
                   className="about__challenge-button"
-                  to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform"}
+                  to={"https://calendly.com/introduction2ai/registration-introduction-to-modern-ai"}
                 >
                   {t('challengePage:infoButton')}
                 </Link>

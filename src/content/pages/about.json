@@ -58,11 +58,9 @@
   "en": {
     "name": "Course Mission",
     "intro": [
-      "This course will help Domain Experts check the feasibility of an AI powered solution to a Domain Specific problem.",
-      "You will learn fundamental AI concepts, the necessary vocabulary, and a structured way of thinking to translate your domain expertise into AI powered solutions.",
-      "We believe in learning by playing. Intuitions come first, formulaes and code comes later. We will make you curious first, and then lay out beacons to guide you on your path to full understanding.",
-      "To take this course you will need a computer with internet access, time, dedication, and the will to apply AI to a specific domain of your interest. No complicated Math or Programming knowledge is required.",
-      "While the outcome of this course is well defined, participants are adviced to be prepared to go off on tangents, segues and mysterious trails which are to be found aplenty in this field of Modern AI."
+      "This course will serve as a guide for Domain Experts to check if a Domain Specific problem can be solved using Modern AI.<br>You will learn fundamental AI concepts, the necessary vocabulary, and a structured way of thinking to translate your domain expertise into AI powered solutions.",
+      "We believe in learning by playing. Intuitions come first, formulaes and code comes later. We will first trigger your curiosity, and then lay out beacons to guide you on your path to understanding.<br>To take this course you will need a computer with internet access, time, dedication, and the will to apply AI to a specific domain of your interest. No complicated Math or Programming knowledge is required.",
+      "While the outcome of this course is well defined, participants are adviced to be prepared to go off on tangents, segues and mysterious trails which are to be found aplenty in this field called Modern AI."
     ],
     "info": [
       {

@@ -67,8 +67,14 @@ const ChallengePage = ({
             }}
             text={joinContent}
           />
-
-          <Form lang={lang} />
+          <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
+                <Link
+                  className="about__challenge-button"
+                  to={"https://photos.app.goo.gl/dsg26Y174Q7hfnqG6"}
+                >
+                  {t('challengePage:registerButton')}
+                </Link>
+          </Element>
         </Element>
       </Element>
 

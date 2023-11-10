@@ -192,12 +192,12 @@ class Form extends Component {
         ) : (
           <>
             <Element flex spaceAround className="col-10 spacing">
-                <Link
-                  className="about__challenge-button about__challenge-button--turquoise"
-                  to={"https://photos.app.goo.gl/dsg26Y174Q7hfnqG6"}
-                >
-                  {t('challengePage:registerButton')}
-                </Link>
+              <button
+                className="about__challenge-button about__challenge-button--turquoise"
+                onClick={() => this.setState({ showForm: true })}
+              >
+                {t('challengePage:registerButton')}
+              </button>
             </Element>
           </>
         )}

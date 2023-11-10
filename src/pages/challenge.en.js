@@ -12,17 +12,7 @@ const Challenge = () => {
        "In this section we provide you with a curated list of Modern AI tools which will help you explore the space of all images with words as knobs",
       ]}
       joinContent={[
-        '<a href="">Hand Draws</a>',
-        '<a href="">Painting</a>',
-        '<a href="">Canva</a>',
-        '<a href="https://www.photopea.com/">Photopea</a>',
-        '<a href="https://affinelayer.com/pixsrv/">Sketch2Img</a>',
-        '<a href="http://adityaramesh.com/posts/dalle2/dalle2.html">How Dall-E works</a>',
-        '<a href="https://yining1023.github.io/fast_style_transfer_in_ML5/">Style Transfer</a>',
-        'Canva AI',
-        'Image2Image',
-        'InPainting',
-        '<a href="https://www.bing.com/create">Bing Image Creator</a>',
+        '<a href="">Hand Drawing</a><br><a href="">Hand Painting</a><br><a href="https://www.canva.com/">Canva</a><br><a href="https://www.photopea.com/">Photopea</a><br><a href="https://affinelayer.com/pixsrv/">Sketch2Img</a><br><a href="http://adityaramesh.com/posts/dalle2/dalle2.html">How Dall-E works</a><br><a href="https://yining1023.github.io/fast_style_transfer_in_ML5/">Style Transfer</a><br>Image2Image<br>InPainting<br><a href="https://www.bing.com/create">Bing Image Creator</a>',
       ]}
     />
   );

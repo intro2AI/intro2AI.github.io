@@ -50,7 +50,7 @@ const CompaniesPage = ({ lang, title, seoDescription }) => {
 
         <Element className="spacing" />
       </Element>
-
+      <Element className="spacing" />
       <Footer lang={lang} />
     </Layout>
   );

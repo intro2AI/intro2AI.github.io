@@ -23,7 +23,7 @@ import mainSEOtags from '../../content/seo/mainSEOtags';
 import news from '../../images/noun_news_1248039.svg';
 import getTranslationPath from '../../utils/getTranslationPath';
 
-const IndexPage = ({ lang, title = '---AI---' }) => {
+const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
   const { t } = useTranslation();
 
   const {
