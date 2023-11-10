@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-
+import { Link } from 'gatsby';
 import { Banner } from '../Banner/Banner';
 import { BodyText } from '../BodyText/BodyText';
 import { CompaniesBanner } from '../CompaniesBanner/CompaniesBanner';
