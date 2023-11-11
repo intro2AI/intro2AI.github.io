@@ -67,7 +67,7 @@ const ChallengePage = ({
             }}
             text={joinContent}
           />
-          <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
+          <Element flex className="col-10 spacing" >
                 <Link
                   className="about__challenge-button"
                   to={"https://photos.app.goo.gl/dsg26Y174Q7hfnqG6"}

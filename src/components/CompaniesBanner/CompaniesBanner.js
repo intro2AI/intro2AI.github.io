@@ -135,8 +135,8 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 className="spacing--small link"
                 headingFont
                 text={[
-                'INDIA<br>4000 Rs (Standard) / 3000 Rs (Student)',
-                'INTERNATIONAL<br>50 $ (Standard) / 40 $ (Student)', 
+                'INDIA<br>4000 INR (Standard) / 3000 INR (Student)',
+                'INTERNATIONAL<br>50 USD (Standard) / 40 USD (Student) or equivalent.', 
                 'The course material and resources are available free of charge and you can audit them from anywhere at anytime, at your leisure.',
                 ]}
               />

@@ -190,7 +190,7 @@ export default class ContentTemplate extends Component {
                 content={[
                   {
                     backgroundColor: colorCode,
-                    text: 'Modern AI',
+                    text: 'intro2AI',
                     link: `/${lang === 'fi' ? '' : `${lang}/`}#course-contents`,
                   },
                   {

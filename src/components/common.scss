@@ -14,8 +14,8 @@ $light-blue: #82d2f7;
 $light-violet: #b2bbf0;
 
 //Font families
-$font-body: 'Roboto Slab', serif;
-$font-heading: 'IBM Plex Sans', monospace;
+$font-body: 'Quando', serif;
+$font-heading: 'Quando', serif;
 
 //Font weights
 $font-weight-regular: 400;
@@ -45,7 +45,7 @@ $xlarge: 1700px;
 }
 
 @mixin to($max-width) {
-  @media all and (max-width: $max-width - 1px) {
+  @media all and (max-width: ($max-width - 1px)) {
     @content;
   }
 }
