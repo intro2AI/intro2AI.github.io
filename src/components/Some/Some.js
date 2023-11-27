@@ -3,10 +3,10 @@ import './Some.scss';
 import React from 'react';
 
 const urls = {
-  github: 'https://github.com/kartikchincholikar',
-  twitter: 'https://twitter.com/KartikC14',
   youtube:
     'https://www.youtube.com/channel/UCq5hj2YogHzxCqqyjou2i8A',
+  twitter: 'https://twitter.com/KartikC14',
+  linkedin:'https://www.linkedin.com/in/kartik-chincholikar-a237a7299/',
 };
 
 export const Some = ({ iconName }) => (

@@ -46,9 +46,9 @@
   },
   "homePage": {
     "startCourseButton": "View Coursework",
-    "announcementsTitle": "  Upcoming Course",
+    "announcementsTitle": "  Event Information",
     "authorsTitle": "  Duration",
     "courseNameTitle": "for Chefs, Medical Professionals, Primatologiests, Police,  Fishermen, High Schoolers, Chemists, Radio Hosts, Business Analysts, Marine Archaeologists, Lawyers, Artists,  and all other Domain Experts.",
-    "codeConduct": "  Registration Fees"
+    "codeConduct": "  Registration"
   }
 }

@@ -21,15 +21,22 @@
     ],
   "en": [
     {
-      "title": "I am unable to make payment online. Can I pay the fee in-person?",
+      "title": "What are the fees to attending Part 1 and Part 2?",
       "text": [
-        "The exercises are submitted to GitHub, and by marking the exercises as done in the exercise submission system. You can read more from <a href='/en/part0/general_info#submitting-exercises'>here</a>. "
+        "INDIA<br>4000 INR (Standard) / 3000 INR (Student)",
+        "INTERNATIONAL<br>50 USD (Standard) / 40 USD (Student) or equivalent."
       ]
     },
     {
       "title": "Can I take this course if I am already familiar with AI?",
       "text": [
-        "No. You can use one or more repositories, most important is to name everything in a repository clearly. "
+        "I will recommend you to take this course if you're interested in Statistical Learning Theory, Geometric Deep Learning and Graph Neural Networks. Also, feel free to book office ours with me to discuss technical concepts not covered in class."
+      ]
+    },
+    {
+      "title": "Do you offer personalized Teaching services for private workshops?",
+      "text": [
+        "Yes. Feel free to mail me at introduction2ai@gmail.com with your requirements."
       ]
     }
   ],

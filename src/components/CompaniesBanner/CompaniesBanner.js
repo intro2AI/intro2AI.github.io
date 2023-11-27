@@ -95,7 +95,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                   className="col-7 col-8--mobile link"
                   style={{ marginRight: '2rem' }}
                   heading={{
-                    title: t('What students have to say'),
+                    title: t('Testimonials from Happy Learners'),
                     level: 'h3',
                   }}
                 />
@@ -107,8 +107,8 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 fontStyle="italic"
                 text={[
         'I am a newbie in this field & I must tell you this is the most amazing <a href="https://www.youtube.com/watch?v=BePQBWPnYuE">ML video</a> I\'ve seen until now. Thank u so much! - Shilpa Rani',
-                  'One more comment to express how you have summarized me a day of research on those learning. Amazing teaching skills. Please continue doing what you are talented at: explaining simply complex notions ! - Quentin Delfosse',
-                'This is a super strong and well-made bit of exposition. Well done! - Anil Keshwani',
+          
+                'This is a super strong and well-made <a href="https://www.youtube.com/watch?v=BePQBWPnYuE">bit of exposition (of the Manifold Hypothesis)</a>. Well done! - Anil Keshwani',
                 '',
               ]}
               />
@@ -130,14 +130,13 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                   }}
                 />
               </Element>
-
+              
               <BodyText
                 className="spacing--small link"
                 headingFont
-                text={[
-                'INDIA<br>4000 INR (Standard) / 3000 INR (Student)',
-                'INTERNATIONAL<br>50 USD (Standard) / 40 USD (Student) or equivalent.', 
-                'The course material and resources are available free of charge and you can audit them from anywhere at anytime, at your leisure.',
+                text={[  
+                'We are pleased to offer a 9 hour course curriculum in 3 Parts of 3 hours each.',
+                'Attending Part 0 is free of charge. Check the Part 1 and Part 2 fees structure <a href="https://intro2ai.github.io/en/faq">here</a>.',
                 ]}
               />
 
