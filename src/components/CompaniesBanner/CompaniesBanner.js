@@ -108,7 +108,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 text={[
         'I am a newbie in this field & I must tell you this is the most amazing <a href="https://www.youtube.com/watch?v=BePQBWPnYuE">ML video</a> I\'ve seen until now. Thank u so much! - Shilpa Rani',
           
-                'This is a super strong and well-made <a href="https://www.youtube.com/watch?v=BePQBWPnYuE">bit of exposition (of the Manifold Hypothesis)</a>. Well done! - Anil Keshwani',
+                'This is a super strong and well-made <a href="https://www.youtube.com/watch?v=BePQBWPnYuE">bit of exposition</a>.(on the Manifold Hypothesis) Well done! - Anil Keshwani',
                 '',
               ]}
               />
@@ -135,8 +135,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 className="spacing--small link"
                 headingFont
                 text={[  
-                'We are pleased to offer a 9 hour course curriculum in 3 Parts of 3 hours each.',
-                'Attending Part 0 is free of charge. Check the Part 1 and Part 2 fees structure <a href="https://intro2ai.github.io/en/faq">here</a>.',
+                'We are pleased to offer a 9-hour course divided into three parts.<br>Participation in Part 0 is free of cost, providing a non-trivial introduction to the course content. For details regarding the fees associated with Part 1 and Part 2, please refer to the fee structure <a href="https://intro2ai.github.io/en/faq">here</a>.',
                 ]}
               />
 
