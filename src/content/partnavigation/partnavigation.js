@@ -63,7 +63,7 @@ module.exports = {
     },
     '2': {
       a: 'Google Search and Juxtaposition',
-      b: 'Intuition: Large Language Models',
+      b: 'Intuition: Large Language Models(LLMs)',
       c: 'LLM Use-Cases',
     },
   },

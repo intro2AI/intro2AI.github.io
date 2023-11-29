@@ -7,7 +7,7 @@ lang: en
 
 <div class="content">
 
-In this section we will practice designing AI applications.
+In this section, we will practice designing AI applications in more detail.
 
 ### Playground
 [Google Jamboard: if/else, Design, and AI](https://jamboard.google.com/)<br>

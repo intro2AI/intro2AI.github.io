@@ -119,7 +119,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
                 className="col-7 col-8--mobile link"
                 style={{ marginRight: '2rem' }}
                 heading={{
-                  title: t('   Prerequisites'),
+                  title: t('   PREREQUISITES'),
                   level: 'h3',
                 }}
               />

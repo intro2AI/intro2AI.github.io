@@ -95,7 +95,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                   className="col-7 col-8--mobile link"
                   style={{ marginRight: '2rem' }}
                   heading={{
-                    title: t('Testimonials from Happy Learners'),
+                    title: t('TESTIMONIALS'),
                     level: 'h3',
                   }}
                 />
@@ -135,7 +135,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 className="spacing--small link"
                 headingFont
                 text={[  
-                'We are pleased to offer a 9-hour course divided into three parts.<br>Participation in Part 0 is free of cost, providing a non-trivial introduction to the course content. For details regarding the fees associated with Part 1 and Part 2, please refer to the fee structure <a href="https://intro2ai.github.io/en/faq">here</a>.',
+                'We are pleased to offer a 9-hour course divided into three parts.<br>Participation in Part 0 is free of cost, providing a non-trivial introduction to the course content.<br><br>Please find the fee structure for Part 1 and Part 2 <a href="https://intro2ai.github.io/en/faq">here</a>.',
                 ]}
               />
 

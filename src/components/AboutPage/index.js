@@ -44,6 +44,14 @@ const AboutPage = ({ title, lang }) => {
               <BodyText text={intro} className="link" headingFont />
             </div>
           </Element>
+          <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
+            <Link
+              className="about__challenge-button"
+              to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform?usp=sf_link"}
+            >
+              {t('challengePage:infoButton')}
+            </Link>
+          </Element>
         </Element>
       </Element>
 

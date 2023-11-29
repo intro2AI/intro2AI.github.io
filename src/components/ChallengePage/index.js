@@ -70,6 +70,14 @@ const ChallengePage = ({
           <Element flex className="col-10 spacing" >
                 <Link
                   className="about__challenge-button"
+                  to={"https://docs.google.com/spreadsheets/d/1Dxs1tSyBfoZkE3xw1sEP9_0-GxlntZog8z1K47CMGBo/edit?usp=sharing"}
+                >
+                  {"Tools"}
+                </Link>
+          </Element>
+          <Element flex className="col-10 spacing" >
+                <Link
+                  className="about__challenge-button"
                   to={"https://photos.app.goo.gl/dsg26Y174Q7hfnqG6"}
                 >
                   {t('challengePage:registerButton')}

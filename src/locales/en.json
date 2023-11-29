@@ -13,8 +13,8 @@
     "generalTitle": "General"
   },
   "navigation": {
-    "aboutCourse": "About course",
-    "courseContents": "Course contents",
+    "aboutCourse": "About Course",
+    "courseContents": "Course Contents",
     "faq": "FAQ",
     "partners": "About Us",
     "challenge": "Art Challenge",
@@ -46,9 +46,9 @@
   },
   "homePage": {
     "startCourseButton": "View Coursework",
-    "announcementsTitle": "  Event Information",
+    "announcementsTitle": "  EVENT INFORMATION",
     "authorsTitle": "  Duration",
-    "courseNameTitle": "for Chefs, Medical Professionals, Primatologiests, Police,  Fishermen, High Schoolers, Chemists, Radio Hosts, Business Analysts, Marine Archaeologists, Lawyers, Artists,  and all other Domain Experts.",
-    "codeConduct": "  Registration"
+    "courseNameTitle": "for Chefs, Medical Professionals, Primatologists, Police,  Fishermen, High Schoolers, Chemists, Radio Hosts, Business Analysts, Marine Archaeologists, Lawyers, Artists,  and all other Domain Experts.",
+    "codeConduct": "  REGISTRATION"
   }
 }
