@@ -54,12 +54,12 @@ module.exports = {
     '0': {
       a: 'Supervised Learning',
       b: 'The Alignment Problem',
+      c: 'Designing AI Systems',
     },
     '1': {
-      a: 'Designing AI Systems',
-      b: 'Model Selection and Evaluation',
-      c: 'Types of Errors',
-      d: 'Deceptive Datasets and Negative Feedback Loops',
+      a: 'Model Selection and Evaluation',
+      b: 'Types of Errors',
+      c: 'Deceptive Datasets and Negative Feedback Loops',
     },
     '2': {
       a: 'Google Search and Juxtaposition',

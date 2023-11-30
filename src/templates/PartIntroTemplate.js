@@ -45,7 +45,7 @@ export default function PartIntroTemplate({ data }) {
     <Layout>
       <SEO
         lang={lang}
-        title={`Fullstack ${lang === 'fi' ? 'osa' : 'part'}${part}`}
+        title={`intro2AI ${lang === 'fi' ? 'osa' : 'part'}${part}`}
         description={mainSEOdescription[lang]}
         keywords={[
           ...mainSEOtags,

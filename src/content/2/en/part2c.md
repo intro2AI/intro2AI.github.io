@@ -10,7 +10,7 @@ lang: en
 In this section, we will look at feasible applications of Large Language Models.
 
 ### LLM Use-cases
-[THE text PROJECT: AI-powered tools for rappersm writers and wordsmiths](https://textfx.withgoogle.com/)<br>
+[THE text PROJECT: AI-powered tools for rappers, writers, and wordsmiths](https://textfx.withgoogle.com/)<br>
 [Chatting with Books](https://www.pdfgear.com/)<br>
 [Prompt Gallery](https://developers.generativeai.google/prompt-gallery)<br>
 [Maker Suite](https://makersuite.google.com/app/home)<br>

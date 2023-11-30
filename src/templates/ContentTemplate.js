@@ -100,7 +100,7 @@ export default class ContentTemplate extends Component {
             <picture>
               <img
                 style={{ borderColor: colorCode }}
-                alt="fullstack content"
+                alt="intro2AI content"
                 src={children[0].attribs.src}
               />
             </picture>
