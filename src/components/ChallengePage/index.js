@@ -58,15 +58,6 @@ const ChallengePage = ({
 
         <Element className="spacing--after col-6 push-right-2">
           <BodyText headingFont text={aboutContent} />
-          <BodyText
-            className="spacing"
-            headingFont
-            heading={{
-              level: 'h2',
-              title: t('challengePage:joinTitle'),
-            }}
-            text={joinContent}
-          />
           <Element flex className="col-10 spacing" >
                 <Link
                   className="about__challenge-button"
