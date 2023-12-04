@@ -56,7 +56,8 @@ const AboutPage = ({ title, lang }) => {
       </Element>
 
       <PartBanner lang={lang} />
-      <Footer lang={lang} />
+      {/* <Footer lang={lang} /> */}
+      
     </Layout>
   );
 };

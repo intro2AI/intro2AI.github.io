@@ -15,7 +15,7 @@ import { TripleBorder } from '../TripleBorder/TripleBorder';
 import cc from '../../images/cc.svg';
 import colors from '../../colors';
 import content from '../../content/pages/main.json';
-import houstonLogo from '../../images/theclock.webp';
+import houstonLogo from '../../images/theclock_white.webp';
 import landingImage from '../../images/landing.webp';
 import licenceIcon from '../../images/cc-logo.svg';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
@@ -131,10 +131,9 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
               text={[
                 "This course is designed for Subject Matter Experts and Students of all disciplines (aged 14+).",
                 "You will need a computer with internet access, time, dedication, and the will to apply AI to a specific domain of your interest.",
-                "No complicated Math or Programming knowledge is required.",
-                ""]}
+                "No complicated Math or Programming knowledge is required."]}
             />
-            <Element flex spaceAround className="col-10 spacing" >
+            <Element flex className="col-10 spacing" >
                 <Link
                   className="about__challenge-button"
                   to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform?usp=sf_link"}
@@ -170,7 +169,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
             className="col-10 col-8--mobile spacing--small"
           >
             <div className="col-3 col-10--mobile">
-              {['github', 'twitter', 'youtube'].map(icon => (
+              {['twitter', 'youtube'].map(icon => (
                 <Some key={icon} iconName={icon} />
               ))}
               <BodyText
