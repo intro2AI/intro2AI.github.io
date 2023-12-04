@@ -107,14 +107,6 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
               text={current}
             />
             
-            <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
-                <Link
-                  className="about__challenge-button"
-                  to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform?usp=sf_link"}
-                >
-                  {t('challengePage:infoButton')}
-                </Link>
-            </Element>
           </Element>
 
           <Element flex horizontalHalf flexStart>
@@ -142,6 +134,19 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
                 "No complicated Math or Programming knowledge is required.",
                 ""]}
             />
+            <Element flex spaceAround className="col-10 spacing" >
+                <Link
+                  className="about__challenge-button"
+                  to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform?usp=sf_link"}
+                >
+                  {t('challengePage:infoButton')}
+                </Link>
+            </Element>
+            <BodyText
+              className="spacing--small link"
+              headingFont
+              text={[""]}
+            />
           
           </Element>
         </Element>
@@ -155,7 +160,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
 
       <Element flex spaceBetween className="container col-10 spacing--after">
         <TripleBorder
-          backgroundColor={colors['main']}
+          backgroundColor={colors['white']}
           className="col-10 centered--mobile"
         >
           <Element
