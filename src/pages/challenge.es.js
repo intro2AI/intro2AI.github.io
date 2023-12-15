@@ -7,7 +7,7 @@ const Challenge = () => {
     <ChallengePage
       lang="es"
       title="---pAInt---"
-      seoDescription="The University of Helsinki and Houston Inc. have partnered up to challenge both individual developers and companies alike to learn and build upon their expertise in true Full Stack development. The course is built by coders for coders, and offers something for both newcomers and seasoned industry veterans alike. "
+      seoDescription="Kartik Chincholikar has prepared this course to challenge Domain Experts, Scientists and and Companies alike to learn and build upon their expertise in modern Artificial Intelligence, Machine Learning technologies. The course is built by AI Experts for Domain Experts, and offers something for both newcomers and seasoned industry veterans alike.  "
       aboutContent={[
         'The world is in dire need of software developers. We want to help breed the next generation of coders — one of our offered methods is to enroll in the Full Stack MOOC course.',
         'The University of Helsinki and Houston Inc. have partnered up to challenge both individual developers and companies alike to learn and build upon their expertise in true Full Stack spirit. Among our affiliates and challenge initiators are Elisa Oyj, K-ryhmä, Konecranes Oyj, Terveystalo Oyj, and Unity Technologies Finland Ltd.',

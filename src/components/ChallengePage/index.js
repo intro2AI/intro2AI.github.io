@@ -34,7 +34,8 @@ const ChallengePage = ({
           'generativeAI',
           'Painting',
           'Generative Art',
-          'sympa',
+          'DALLE3',
+          'Latent'
         ]}
       />
 

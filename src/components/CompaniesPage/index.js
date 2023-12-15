@@ -22,23 +22,14 @@ const CompaniesPage = ({ lang, title, seoDescription }) => {
         description={seoDescription}
         keywords={[
           ...mainSEOtags,
-          'houston',
-          'houston inc',
-          'software development',
-          'frontend',
-          'elisa',
-          'terveystalo',
-          'konecranes',
-          'k-ryhmä',
-          'unity technologies',
-          'unity',
-          'kesko',
-          'sympa',
-          'funktionaalinen ohjelmointi',
-          'functional programming',
-          'mikropalveluarkkitehtuuri',
-          'micro service architecture',
-          'micro service',
+          'AI',
+          'Machine Learning',
+          'Data Science',
+          'Feasibility',
+          'LLM',
+          'Statistical Learning Theory',
+          'Domain Knowledge',
+          'Subject Matter Expert',
         ]}
       />
 
