@@ -130,7 +130,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
               headingFont
               text={[
                 "This course is designed for Subject Matter Experts and Students of all disciplines (aged 14+).",
-                "You will need a computer with internet access, time, dedication, and the will to apply AI to a specific domain of your interest.",
+                "You will need a computer with internet access, time, dedication, and the will to apply AI to the specific domain of your interest.",
                 "No complicated Math or Programming knowledge is required."]}
             />
             <Element flex className="col-10 spacing" >
