@@ -13,6 +13,7 @@ import snakeCase from 'lodash/fp/snakeCase';
 import { useTranslation } from 'react-i18next';
 import getTranslationPath from '../../utils/getTranslationPath';
 import news from '../../images/noun_news_1248039.svg';
+import MetaPixel from '../../utils/meta/metaPixel';
 
 const isBrowser = typeof window !== 'undefined';
 let isMobile = false;
@@ -85,6 +86,14 @@ const inChallenge = [
 
 export const CompaniesBanner = ({ isFrontPage, lang }) => {
   const { t } = useTranslation();
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check if running in the browser
+    if (typeof window !== 'undefined') {
+      setIsMobile(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent));
+    }
+  }, []);
 
   return (
     <Banner
@@ -145,7 +154,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 ]}
               />
 
-              {isFrontPage && isMobile (
+              {isFrontPage && isMobile ? (
                 <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
                 <a
                   className="about__challenge-button"
@@ -154,8 +163,8 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                   {t('challengePage:infoButton')}
                 </a>
                 </Element>
-              )}
-              {isFrontPage && !isMobile (
+              ):null}
+              {isFrontPage && !isMobile ? (
                 <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
                 <Link
                 className="about__challenge-button"
@@ -164,10 +173,12 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                     {t('challengePage:infoButton')}
                 </Link>
                 </Element>
-              )}
+                
+              ):null}
           </Element>
+          <MetaPixel/>
 
-          
+
         </Element>
       </Element>
     </Banner>

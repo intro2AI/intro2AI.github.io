@@ -31,7 +31,7 @@ const AboutPage = ({ title, lang }) => {
           'Full stack harjoitustyö',
         ]}
       />
-
+      <MetaPixel />
       <Element className="container spacing spacing--mobile--large">
         <Element className="col-8 push-right-1">
           <BodyText
