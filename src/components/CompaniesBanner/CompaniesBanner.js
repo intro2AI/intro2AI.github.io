@@ -14,7 +14,12 @@ import { useTranslation } from 'react-i18next';
 import getTranslationPath from '../../utils/getTranslationPath';
 import news from '../../images/noun_news_1248039.svg';
 
-const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+const isBrowser = typeof window !== 'undefined';
+let isMobile = false;
+if (isBrowser) {
+  isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+}
+
 const partners = [
 
 ];
