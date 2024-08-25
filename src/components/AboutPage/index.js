@@ -13,6 +13,7 @@ import content from '../../content/pages/about.json';
 import landingImage from '../../images/landing.webp';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
+import MetaPixel from '../../utils/meta/metaPixel';
 
 const AboutPage = ({ title, lang }) => {
   const { t } = useTranslation();
