@@ -14,6 +14,7 @@ import { useTranslation } from 'react-i18next';
 import getTranslationPath from '../../utils/getTranslationPath';
 import news from '../../images/noun_news_1248039.svg';
 
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 const partners = [
 
 ];
@@ -139,15 +140,25 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 ]}
               />
 
-              {isFrontPage && (
-              <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
-                <Link
+              {isFrontPage && isMobile (
+                <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
+                <a
                   className="about__challenge-button"
-                  to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform?usp=sf_link"}
+                  href="upi://pay?pa=kartik.niszoig-2@oksbi&pn=KARTIK CHINCHOLIKAR&cu=INR&am=100"
                 >
                   {t('challengePage:infoButton')}
+                </a>
+                </Element>
+              )}
+              {isFrontPage && !isMobile (
+                <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
+                <Link
+                className="about__challenge-button"
+                  to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform?usp=sf_link"}
+                >
+                    {t('challengePage:infoButton')}
                 </Link>
-              </Element>
+                </Element>
               )}
           </Element>
 
