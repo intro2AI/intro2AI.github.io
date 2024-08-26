@@ -24,6 +24,7 @@ import news from '../../images/noun_news_1248039.svg';
 import getTranslationPath from '../../utils/getTranslationPath';
 
 const isBrowser = typeof window !== 'undefined';
+
 let isMobile = true;
 if (isBrowser) {
   isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -140,7 +141,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
                 "You will need a computer with internet access, time, dedication, and the will to apply AI to the specific domain of your interest.",
                 "No complicated Math or Programming knowledge is required."]}
             />
-            {isFrontPage && isMobile ? (
+            {isMobile ? (
                 <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
                 <a
                   className="about__challenge-button"
@@ -150,7 +151,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
                 </a>
                 </Element>
             ):null}
-            {isFrontPage && !isMobile ? (
+            {!isMobile ? (
                 <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
                 <Link
                 className="about__challenge-button"
