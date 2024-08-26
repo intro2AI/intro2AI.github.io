@@ -13,10 +13,10 @@ import snakeCase from 'lodash/fp/snakeCase';
 import { useTranslation } from 'react-i18next';
 import getTranslationPath from '../../utils/getTranslationPath';
 import news from '../../images/noun_news_1248039.svg';
-import MetaPixel from '../../utils/meta/metaPixel';
+
 
 const isBrowser = typeof window !== 'undefined';
-let isMobile = false;
+let isMobile = true;
 if (isBrowser) {
   isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 }
@@ -176,7 +176,7 @@ export const CompaniesBanner = ({ isFrontPage, lang }) => {
                 
               ):null}
           </Element>
-          <MetaPixel/>
+ 
 
 
         </Element>

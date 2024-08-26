@@ -13,7 +13,7 @@ import content from '../../content/pages/about.json';
 import landingImage from '../../images/landing.webp';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
-import MetaPixel from '../../utils/meta/metaPixel';
+
 
 const AboutPage = ({ title, lang }) => {
   const { t } = useTranslation();
@@ -32,7 +32,7 @@ const AboutPage = ({ title, lang }) => {
           'Full stack harjoitustyö',
         ]}
       />
-      <MetaPixel />
+
       <Element className="container spacing spacing--mobile--large">
         <Element className="col-8 push-right-1">
           <BodyText

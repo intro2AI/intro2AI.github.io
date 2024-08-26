@@ -23,6 +23,13 @@ import mainSEOtags from '../../content/seo/mainSEOtags';
 import news from '../../images/noun_news_1248039.svg';
 import getTranslationPath from '../../utils/getTranslationPath';
 
+const isBrowser = typeof window !== 'undefined';
+let isMobile = true;
+if (isBrowser) {
+  isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+}
+
+
 const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
   const { t } = useTranslation();
 
@@ -133,14 +140,26 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
                 "You will need a computer with internet access, time, dedication, and the will to apply AI to the specific domain of your interest.",
                 "No complicated Math or Programming knowledge is required."]}
             />
-            <Element flex className="col-10 spacing" >
-                <Link
+            {isFrontPage && isMobile ? (
+                <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
+                <a
                   className="about__challenge-button"
-                  to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform?usp=sf_link"}
+                  href="upi://pay?pa=kartik.niszoig-2@oksbi&pn=KARTIK CHINCHOLIKAR&cu=INR&am=100"
                 >
                   {t('challengePage:infoButton')}
+                </a>
+                </Element>
+            ):null}
+            {isFrontPage && !isMobile ? (
+                <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
+                <Link
+                className="about__challenge-button"
+                  to={"https://docs.google.com/forms/d/e/1FAIpQLScXuUgZ4WVCb-BNZ2M0b1yQRR8wNUZg8amukog4Oz5cQ1Kslg/viewform?usp=sf_link"}
+                >
+                    {t('challengePage:infoButton')}
                 </Link>
-            </Element>
+                </Element>
+            ):null}
             <BodyText
               className="spacing--small link"
               headingFont
