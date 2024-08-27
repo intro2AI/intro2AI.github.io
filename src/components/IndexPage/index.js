@@ -22,6 +22,7 @@ import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
 import news from '../../images/noun_news_1248039.svg';
 import getTranslationPath from '../../utils/getTranslationPath';
+import ReviewCarousel from '../../utils/ReviewCarousel'; // Add this import
 
 const isBrowser = typeof window !== 'undefined';
 
@@ -46,6 +47,13 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
   } = content[lang];
 
   const seoDescription = mainSEOdescription[lang];
+
+  const reviews = [
+    { text: "This course is amazing! I learned so much about AI.", author: "John Doe" },
+    { text: "Great introduction to modern AI concepts.", author: "Jane Smith" },
+    { text: "Highly recommended for anyone interested in AI.", author: "Bob Johnson" },
+    // Add more reviews as needed
+  ];
 
   return (
     <Layout>
@@ -175,8 +183,32 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
 
       {/* 
       <CompaniesBanner lang={lang} isFrontPage />
-      */}         
+      */}
+      <Element className="container spacing spacing--after">
+        <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
+          {/* ... (existing announcements section) */}
 
+          <Element flex horizontalHalf flexStart>
+            <Element
+              flex
+              spaceBetween
+              autoBottomMargin
+              className="col-10"
+            >
+              <BodyText
+                className="col-7 col-8--mobile link"
+                style={{ marginRight: '2rem' }}
+                heading={{
+                  title: t('homePage:reviewsTitle'),
+                  level: 'h3',
+                }}
+              />
+            </Element>
+            <ReviewCarousel reviews={reviews} />
+          </Element>
+        </Element>
+      </Element>
+      
       <Element flex spaceBetween className="container col-10 spacing--after">
         <TripleBorder
           backgroundColor={colors['white']}

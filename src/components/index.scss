@@ -439,3 +439,22 @@ a {
   }
 }
 
+.review-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.review-carousel .review {
+  text-align: center;
+  max-width: 70%;
+}
+
+.review-carousel button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
