@@ -11,7 +11,7 @@ import './DeveloperStory.scss';
 
 export const DeveloperStory = props => {
   const { image, companyLogo, text, name, title } = props;
-  const [readMore, setReadMore] = useState(false);
+  const [readMore, setReadMore] = useState(true);
   const { t } = useTranslation();
 
   return (
