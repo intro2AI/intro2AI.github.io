@@ -184,9 +184,10 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
       {/* 
       <CompaniesBanner lang={lang} isFrontPage />
       */}
+      {/*
       <Element className="container spacing spacing--after">
         <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
-          {/* ... (existing announcements section) */}
+          
 
           <Element flex horizontalHalf flexStart>
             <Element
@@ -208,7 +209,15 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
           </Element>
         </Element>
       </Element>
-      
+      */}
+      <Element className="container spacing spacing--after">
+        <img
+          src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGlwejF1Zm16ZnZ4dnAwcndjYWUwaDN0OWVpdm9idjNnemdkNzJ2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BDBUQdVCB0otTU2GwV/giphy.gif"
+          alt="Animated GIF from Giphy"
+          style={{ maxWidth: '100%', height: 'auto' }}
+        />
+      </Element>
+
       <Element flex spaceBetween className="container col-10 spacing--after">
         <TripleBorder
           backgroundColor={colors['white']}
