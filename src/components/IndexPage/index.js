@@ -23,6 +23,8 @@ import mainSEOtags from '../../content/seo/mainSEOtags';
 import news from '../../images/noun_news_1248039.svg';
 import getTranslationPath from '../../utils/getTranslationPath';
 import ReviewCarousel from '../../utils/ReviewCarousel'; // Add this import
+import PaymentButton from './PaymentButton';
+
 
 const isBrowser = typeof window !== 'undefined';
 
@@ -149,15 +151,8 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
                 "You will need a computer with internet access, time, dedication, and the will to apply AI to the specific domain of your interest.",
                 "No complicated Math or Programming knowledge is required."]}
             />
-            <Element flex spaceAround className="col-10 spacing" paddingBottom={2}>
-              <form>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: '<script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_OtrjpUoKjvKcl2" async></script>'
-                  }}
-                />
-              </form>
-            </Element>
+
+            <PaymentButton />
             
             <BodyText
               className="spacing--small link"
