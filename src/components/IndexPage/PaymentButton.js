@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import Element from '../Element/Element';
 
 const PaymentButton = () => {
   const formRef = useRef(null);
