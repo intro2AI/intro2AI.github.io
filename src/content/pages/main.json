@@ -1,28 +1,25 @@
 {
   "fi": {
-    "mainTitle": "Syväsukellus moderniin websovelluskehitykseen",
-    "intro": "Ota haltuusi React, Redux, Node.js, MongoDB, GraphQL ja TypeScript! Kurssilla tutustutaan JavaScriptilla tapahtuvaan moderniin websovelluskehitykseen. Pääpaino on React-kirjaston avulla toteutettavissa single page -sovelluksissa, ja niitä tukevissa Node.js:llä toteutetuissa REST-rajapinnoissa.",
+    "mainTitle": "AI काय करु शक्त? काय नाही करु शकत?",
+    "intro": "हा कोर्स ‌आप्ल्याला ‌आप्ल्या व्यवसायात AI कस लागू करायच हे शिकवेल",
     "current": [
-      "Kurssin koe <a href='https://moodle.helsinki.fi/course/view.php?id=57509'>Moodlessa</a>. Koe on tehtävissä  milloin vaan 10-12.3. Kokeen tekemiseen on aikaa 3h kokeen aloitushetkestä alkaen.",
-      "Kurssiin liittyvää keskustelua Discordissa, kanavalla <a target='_blank' href='https://study.cs.helsinki.fi/discord/join/fullstack'>https://study.cs.helsinki.fi/discord/join/fullstack</a> sekä Telegramissa, kanavalla <a target='_blank' href='https://t.me/fullstackcourse'>https://t.me/fullstackcourse</a>, tule mukaan! <ul><li>Huom: kaikki epäasialliset, halventavat ja jotain ihmisryhmää syrjivät kommentit kanavalla ovat kiellettyjä ja tälläisten kommenttien esittäjät poistetaan kanavalta.</li></ul>",
-      "Yhteistyökumppaneina kurssilla on <a href='https://www.houston-inc.com/'>Houston Inc</a>, <a href='https://www.terveystalo.com/fi/Yritystietoa/Terveystalo-tyontantajana/Digital-Health/'>Terveystalo</a>, <a href='https://elisa.fi/'>Elisa</a>, <a href='https://www.kesko.fi/'>K-ryhmä</a>, <a href='https://www.instagram.com/unitytechnologies/?hl=en'>Unity Technologies</a>, <a href='https://careers.konecranes.com/Konecranes/'>Konecranes</a> ja <a href='https://www.smartly.io/'>Smartly.io</a>. Katso <a href='https://www.youtube.com/playlist?list=PLumQiZ25uijis31zaRL7rhzLalSwLqUtm'>täältä</a> yhteistyökumppaniemme asiantuntijoiden vierailuluentoja kurssin aihepiireistä."
+      "📆 Learn at your pace<br>✅ Highest Quality of Teaching<br>⌛  10 hours of Video Content<br>🌐 Curated Learning Material<br>",
+      "For more information, please inquire at introduction2ai@gmail.com or +91 9922821694.",
+      ""
     ],
-    "telegram": "Telegram on whatsappin/messengerin tyylinen keskustelufoorumisovellus, jota on mahdollista käyttää selaimella, mobiililaitteilla ja Windows/Linux/OSX-clienteillä.",
-    "notice": "Huom: kaikki epäasialliset, halventavat ja jotain ihmisryhmää syrjivät kommentit kanavalla ovat kiellettyjä ja tälläisten kommenttien esittäjät poistetaan kanavalta.",
-    "licence": [
-      "Kurssimateriaalinon tehnyt <a href='https://github.com/mluukkai'>Matti Luukkainen</a>. Lukuisat <a href='https://github.com/fullstack-hy2020/misc/blob/master/contributors.md'>henkilöt</a> ovat parantaneet materiaalin laatua kirjoitus- ja asiavirhekorjauksin. Voit osallistua  kurssimateriaalin parantamiseen myös itse. <br/><br/> Sivuston designin on suunnitellut ja toteuttanut <a target='_blank' href='https://www.houston-inc.com/'>Houston inc</a>, joka on myös auditoinut kurssin sisällön.",
-      "Tämä materiaali on lisensoitu <a href='https://creativecommons.org/licenses/by-nc-sa/3.0/'>Creative Commons BY-NC-SA 3.0</a> -lisenssillä, joten voit käyttää ja levittää sitä vapaasti, kunhan alkuperäisten tekijöiden nimiä ei poisteta. Jos teet muutoksia materiaaliin ja haluat levittää muunneltua versiota, se täytyy lisensoida samalla lisenssillä. Materiaalien käyttö kaupalliseen tarkoitukseen on ilman erillistä lupaa kielletty."
-    ],
-    "university": "Helsingin yliopisto on Suomen vanhin ja suurin tiedekorkeakoulu, yhteensä 40 000 henkilön kansainvälinen tiedeyhteisö. Tieteen voimalla yliopisto rakentanut yhteiskuntaa, sivistystä ja hyvinvointia jo vuodesta 1640.",
-    "houston": "Suomalainen Houston Inc. on vuonna 2003 perustettu ketterä softatalo. Suunnittelemme ja toteutamme asiakkaillemme räätälöityjä digitaalisia palveluita liiketoiminnan tarpeisiin.",
-    "contacts": ["Full stack open", "matti.luukkainen@helsinki.fi"],
-    "licenced": "Materiaali on lisensoitu Creative Commons BY-NC-SA 3.0 -lisenssillä."
+    "telegram": "",
+    "notice": "",
+    "licence": [],
+    "university": [],
+    "houston": "",
+    "contacts": ["Whatsapp/Telegram: +91 9922821694","Email: introduction2AI@gmail.com"],
+    "licenced": ""
   },
   "en": {
-    "mainTitle": "AI युग",
+    "mainTitle": "An Intro to Modern AI",
     "intro": "Learn what Modern AI can (and cannot) do. The main focus of this course is to create an intuitive understanding of Modern AI concepts to identify and evaluate feasible AI-powered solutions for domain-specific problems.",
     "current": [
-      "📆 The Weekend<br>🕒 3 Sessions<br>⌛  3 Hours each<br>🌐 Virtual or In-Person",
+      "📆 Learn at your pace<br>✅ Highest Quality of Teaching<br>⌛  10 hours of Video Content<br>🌐 Curated Learning Material<br>",
       "For more information, please inquire at introduction2ai@gmail.com or +91 9922821694.",
       ""
     ],
@@ -35,7 +32,7 @@
     "university": [],
     "houston": "",
     "contacts": ["Whatsapp/Telegram: +91 9922821694","Email: introduction2AI@gmail.com"],
-    "licenced": "This website is licensed under the Creative Commons BY-NC-SA 3.0 License.."
+    "licenced": ""
   },
   "es": {
     "mainTitle": "Profundización en el desarrollo web moderno.",

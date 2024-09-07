@@ -1,24 +1,18 @@
 {
   "fi": [
-      {
-        "title": "Pitääkö jokainen osa palauttaa omaan repositorioon?",
-        "text": [
-          "Ei. Voit käyttää yhtä tai useampaa repositoriota, tärkeintä on, että asiat repositorion sisällä ovat selkeästi nimettyjä."
-        ]
-      },
-      {
-        "title": "Voinko muokata tekemääni palautusta?",
-        "text": [
-          "Et. Kaikki osan tehtävät on palautettava kerralla. Jos merkkasit tehtäviä vahingossa väärin tai typotit repositorion nimen, lähetä mailia osoitteeseen matti.luukkainen@helsinki.fi"
-        ]
-      },
-      {
-        "title": "Minulla ei ole opinto-oikeutta Helsingin Yliopistoon. Voinko suorittaa kurssin?",
-        "text": [
-          "Voit! Tosin suoritusmerkinnän voit saada vasta 15.3.2021 alkavassa MOOC:issa, et myöskään voi palauttaa tehtäviä vielä. MOOCin ja kampuskurssin sisältö on sama, joten nyt tehty työ ei mene hukkaan."
-        ]
-      }   
-    ],
+    {
+      "title": "Can I take this course if I am already familiar with AI?",
+      "text": [
+        "Yes. This course has is heavily inspired by cutting edge machine learning topics such as Geometric Deep Learning, Graph Neural Networks, Statistical Learning Theory and Natural Language Processing. If you are interested in these topics and are considering taking this course, I would be happy to discuss the more technical concepts with you outside of class."
+      ]
+    },
+    {
+      "title": "Do you offer personalized Teaching services for private workshops?",
+      "text": [
+        "Yes. Feel free to mail me at introduction2ai@gmail.com with your requirements."
+      ]
+    }
+  ],
   "en": [
     {
       "title": "What are the fees for attending Part 1 and Part 2 of this course?",

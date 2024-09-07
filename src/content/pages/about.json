@@ -1,16 +1,14 @@
 {
   "fi": {
-    "name": "Yleistä",
+    "name": "Course Mission",
     "intro": [
-      "Kurssilla tutustutaan JavaScriptilla tapahtuvaan moderniin websovelluskehitykseen. Pääpaino on React-kirjaston avulla toteutettavissa single page -sovelluksissa, ja niitä tukevissa Node.js:llä toteutetuissa REST-rajapinnoissa. Kurssilla tutustutaan myös GraphQL:n eli REST:ille vaihtoehtoiseen rajapintojen toteutusperiaatteeseen",
-      "Kurssilla käsitellään myös sovellusten testaamista, konfigurointia ja suoritusympäristöjen hallintaa sekä MongoDB-tietokannan käyttöä sovelluksen tietojen tallettamiseen",
-      "Yhteistyökumppaneina kurssilla on <a href='https://www.houston-inc.com/'>Houston Inc</a>, <a href='https://www.terveystalo.com/fi/Yritystietoa/Terveystalo-tyontantajana/Digital-Health/'>Terveystalo</a>, <a href='https://elisa.fi/'>Elisa</a>, <a href='https://www.kesko.fi/'>K-ryhmä</a>, <a href='https://www.instagram.com/unitytechnologies/?hl=en'>Unity Technologies</a>, <a href='https://careers.konecranes.com/Konecranes/'>Konecranes</a> ja <a href='https://www.smartly.io/'>Smartly.io</a>. Katso <a href='https://www.youtube.com/playlist?list=PLumQiZ25uijis31zaRL7rhzLalSwLqUtm'>täältä</a> yhteistyökumppaniemme asiantuntijoiden vierailuluentoja kurssin aihepiireistä.",
-      "Osallistujilta edellytetään vahvaa ohjelmointirutiinia, web-ohjelmoinnin ja tietokantojen perustuntemusta, git-versionhallintajärjestelmän peruskäytön hallintaa, kykyä pitkäjänteiseen työskentelyyn sekä valmiutta omatoimiseen tiedonhakuun ja ongelmanratkaisuun. Osallistuminen ei kuitenkaan edellytä kurssilla käsiteltävien tekniikoiden tai Javascript-kielen hallintaa.",
-      "Kurssin sisällöstä ja suoritustavasta kerrotaan materiaalissa osassa 0, lue ne huolella."
+      "This course will serve as a guide for Domain Experts to check if a Domain-Specific problem can be solved using Modern AI.<br>You will learn fundamental AI concepts, the necessary vocabulary, and a structured way of thinking to translate your domain expertise into AI-powered solutions.",
+      "We believe in learning by playing. Intuitions come first, and formulas and code come later. We will first trigger your curiosity and then lay out beacons to guide you on your path to understanding.<br>To take this course you will need a computer with internet access, time, dedication, and the will to apply AI to a specific domain of your interest. No complicated Math or Programming knowledge is required.",
+      "While the outcome of this course is well defined, participants are advised to be prepared to go off on tangents, segues and mysterious trails which are to be found aplenty in this field called Modern AI."
     ],
     "info": [
       {
-        "title": "Kurssimateriaali",
+        "title": "Course Material",
         "content": [
           "Kurssimateriaali on tarkoitettu luettavaksi osa kerrallaan \"alusta loppuun\". Materiaalin seassa on tehtäviä, jotka on sijoitettu siten, että kunkin tehtävän tekemiseen pitäisi olla riittävät tekniset valmiudet sitä edeltävässä materiaalissa. Voit siis tehdä tehtäviä sitä mukaan kun niitä tulee materiaalissa vastaan. Voi myös olla, että koko osan tehtävät kannattaa tehdä vasta luettuaan ensin osan alusta loppuun kertaalleen. Useissa osissa tehtävät ovat samaa ohjelmaa laajentavia pienistä osista koostuvia kokonaisuuksia. Muutamia tehtävien ohjelmia kehitetään eteenpäin useamman osan aikana.",
           "Materiaali perustuu muutamien osasta osaan vaihtuvien esimerkkiohjelmien asteittaiseen laajentamiseen. Materiaali toiminee parhaiten, jos kirjoitat samalla koodin myös itse ja teet koodiin myös pieniä modifikaatioita. Materiaalin käyttämien ohjelmien koodin eri vaiheiden tilanteita on tallennettu GitHubiin."
