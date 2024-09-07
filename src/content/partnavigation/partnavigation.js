@@ -1,53 +1,19 @@
 module.exports = {
   fi: {
     '0': {
-      a: 'Yleistä',
-      b: 'Web-sovelluksen toimintaperiaatteita',
+      a: 'Supervised Learning',
+      b: 'The Alignment Problem',
+      c: 'Designing AI Systems',
     },
     '1': {
-      a: 'Reactin alkeet',
-      b: 'JavaScriptia',
-      c: 'Komponentin tila ja tapahtumankäsittely',
-      d: 'Monimutkaisempi tila, Reactin debuggaus',
+      a: 'Model Selection and Evaluation',
+      b: 'Types of Errors',
+      c: 'Deceptive Datasets and Negative Feedback Loops',
     },
     '2': {
-      a: 'Kokoelmien renderöinti ja moduulit',
-      b: 'Lomakkeiden käsittely',
-      c: 'Palvelimella olevan datan hakeminen',
-      d: 'Palvelimella olevan datan muokkaaminen',
-      e: 'Tyylien lisääminen React-sovellukseen',
-    },
-    '3': {
-      a: 'Node.js ja Express',
-      b: 'Sovellus internetiin',
-      c: 'Tietojen tallettaminen MongoDB-tietokantaan',
-      d: 'Validointi ja ESLint',
-    },
-    '4': {
-      a: 'Sovelluksen rakenne ja testauksen alkeet',
-      b: 'Backendin testaaminen',
-      c: 'Käyttäjien hallinta',
-      d: 'Token-perustainen kirjautuminen',
-    },
-    '5': {
-      a: 'Kirjautuminen frontendissä',
-      b: 'props.children ja proptypet',
-      c: 'React-sovellusten testaaminen',
-      d: 'End to end -testaus',
-    },
-    '6': {
-      a: 'Flux-arkkitehtuuri ja Redux',
-      b: 'Monta reduseria',
-      c: 'Redux-sovelluksen kommunikointi palvelimen kanssa',
-      d: 'React Query, useReducer ja contex',
-    },
-    '7': {
-      a: 'React-router',
-      b: 'custom-hookit',
-      c: 'Lisää tyyleistä',
-      d: 'Webpack',
-      e: 'Luokkakomponentit, Sekalaista',
-      f: 'Tehtäviä: blogilistan laajennus',
+      a: 'Google Search and Juxtaposition',
+      b: 'Intuition: Large Language Models(LLMs)',
+      c: 'LLM Use-Cases',
     },
   },
   en: {

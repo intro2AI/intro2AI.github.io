@@ -1,53 +1,54 @@
 {
   "common": {
-    "nextPart": "Seuraava osa",
-    "previousPart": "Edellinen osa",
-    "readMore": "Lue lisää",
-    "proposeChanges": "Ehdota muutosta materiaalin sisältöön"
+    "nextPart": "पुढचा भाग",
+    "previousPart": "मागचा भाग",
+    "readMore": "Read more",
+    "proposeChanges": "Propose changes to material"
   },
   "searchPage": {
-    "noMatches": "Hakutuloksia ei löytynyt",
-    "matchesTitle": "Löytyi {{count}} hakutulosta hakusanalle \"{{query}}\""
+    "noMatches": "No matches found",
+    "matchesTitle": "Found {{count}} matches for query \"{{query}}\""
   },
   "aboutPage": {
-    "generalTitle": "Yleistä"
+    "generalTitle": ""
   },
   "navigation": {
-    "aboutCourse": "Kurssista",
-    "courseContents": "Kurssin sisältö",
+    "aboutCourse": "About Course",
+    "courseContents": "Course Contents",
     "faq": "FAQ",
-    "partners": "Kurssilla mukana",
-    "challenge": "Haaste",
-    "searchLinkSrLabel": "Hae materiaalista"
+    "partners": "About Us",
+    "challenge": "Art Challenge",
+    "searchLinkSrLabel": "Search from the material"
   },
   "challengePage": {
-    "aboutTitle": "Tämä on Full Stack -haaste",
-    "joinTitle": "Yritykset, ottakaa haaste vastaan!",
-    "registerButton": "Ilmoita yrityksesi mukaan haasteeseen!",
-    "nameLabel": "Nimi",
-    "namePlaceholder": "Matti Meikäläinen",
-    "titleLabel": "Titteli",
-    "companyLabel": "Yritys",
-    "companyPlaceholder": "Yritys Oy",
-    "phoneLabel": "Puhelinnumero",
-    "emailLabel": "Sähköpostiosoite",
-    "whereDidYouHearLabel": "Mistä kuulit Full Stack -haasteesta?",
-    "submitButton": "Lähetä",
-    "submitSuccessMessage": "Kiitos! Otamme teihin yhteyttä pian!",
-    "participantsTitle": "Nämä yritykset ovat mukana Full Stack -haasteessa",
-    "coOperationTitle": "Yhteistyössä",
-    "infoButton": "Lisätietoa haasteesta"
+    "aboutTitle": "Compliment traditional tools with 'latent' brush strokes",
+    "joinTitle": "Tools",
+    "registerButton": "Gallery",
+    "nameLabel": "Name",
+    "namePlaceholder": "Jane Doe",
+    "titleLabel": "Title",
+    "companyLabel": "Company",
+    "companyPlaceholder": "Company Co",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email address",
+    "whereDidYouHearLabel": "Where did you hear from the challenge",
+    "submitButton": "Submit",
+    "submitSuccessMessage": "Thanks! We will contact you soon!",
+    "participantsTitle": "These companies have joined the Full Stack challenge",
+    "coOperationTitle": "In co-operation with",
+    "infoButton": "Register"
   },
   "companiesPage": {
-    "storiesTitle": "Devaaja-tarinoita yhteistyökumppaneiltamme"
+    "storiesTitle": "Our Story"
   },
   "faqPage": {
-    "faqTitle": "Usein kysytyt kysymykset"
+    "faqTitle": "Frequently asked questions"
   },
   "homePage": {
-    "startCourseButton": "Aloita kurssi",
-    "announcementsTitle": "Ajankohtaista",
-    "authorsTitle": "Materiaalin tekijä ja lisenssi",
-    "courseNameTitle": "Full Stack -websovelluskehitys"
+    "startCourseButton": "View Coursework",
+    "announcementsTitle": "  TIME AND DATE",
+    "authorsTitle": "  Duration",
+    "courseNameTitle": "for Chefs, Medical Professionals, Primatologists, Police,  Fishermen, High Schoolers, Chemists, Radio Hosts, Business Analysts, Marine Archaeologists, Lawyers, Artists,  and all other Domain Experts.",
+    "codeConduct": "  REGISTRATION"
   }
 }

@@ -50,12 +50,6 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
 
   const seoDescription = mainSEOdescription[lang];
 
-  const reviews = [
-    { text: "This course is amazing! I learned so much about AI.", author: "John Doe" },
-    { text: "Great introduction to modern AI concepts.", author: "Jane Smith" },
-    { text: "Highly recommended for anyone interested in AI.", author: "Bob Johnson" },
-    // Add more reviews as needed
-  ];
 
   return (
     <Layout>

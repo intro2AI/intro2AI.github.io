@@ -1,8 +1,8 @@
 {
-  "name": "fullstackhy-2020",
-  "description": "Full stack websovelluskehitys 2020",
+  "name": "intro2ai-2024",
+  "description": "intro2Ai",
   "version": "1.0.0",
-  "author": "Houston Inc. Consulting Oy",
+  "author": "SUN WATER INTERNET",
   "dependencies": {
     "anchorate": "^1.2.3",
     "axios": "^0.18.0",
