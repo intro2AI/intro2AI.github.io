@@ -2,7 +2,7 @@ import React from 'react';
 import AboutPage from '../components/AboutPage';
 
 const About = () => {
-  return <AboutPage lang="fi" title="Introduction to AI" />;
+  return <AboutPage lang="fi" title="About | Introduction to AI" />;
 };
 
 export default About;

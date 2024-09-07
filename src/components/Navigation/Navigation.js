@@ -39,7 +39,7 @@ export const getNavigation = (language, t) => {
 };
 
 const searchIsEnabledForLang = lang => {
-  return ['zh'].includes(lang);
+  return false;
 };
 
 const handleCloseMenu = () =>

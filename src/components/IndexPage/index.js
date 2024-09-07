@@ -17,6 +17,7 @@ import colors from '../../colors';
 import content from '../../content/pages/main.json';
 import houstonLogo from '../../images/theclock_white.webp';
 import landingImage from '../../images/landing.webp';
+import studentReviews from '../../images/student_reviews.webm';
 import licenceIcon from '../../images/cc-logo.svg';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
@@ -110,10 +111,14 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
       <Element className="container spacing spacing--after">
         <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
           <Element className="container spacing spacing--after">
-            <img
-              src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGlwejF1Zm16ZnZ4dnAwcndjYWUwaDN0OWVpdm9idjNnemdkNzJ2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BDBUQdVCB0otTU2GwV/giphy.gif"
-              alt="Animated GIF from Giphy"
+            <video
+              src={studentReviews}
+              alt="Student reviews video"
               style={{ maxWidth: '100%', height: 'auto' }}
+              autoPlay
+              loop
+              muted
+              playsInline
             />
           </Element>
         </Element>

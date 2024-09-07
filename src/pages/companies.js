@@ -5,7 +5,7 @@ import CompaniesPage from '../components/CompaniesPage';
 const Companies = () => (
   <CompaniesPage
     lang="fi"
-    title="Introduction to AI"
+    title="Test | Introduction to AI"
     seoDescription="Kurssin yhteistyöyritysten devaajat esittäytyvät"
   />
 );
