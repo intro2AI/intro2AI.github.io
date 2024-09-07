@@ -138,7 +138,7 @@ module.exports = {
   siteMetadata: {
     title: 'Intro to AI for Domain Experts',
     description: '',
-    author: 'Houston Inc. Consulting oy',
+    author: 'SUN WATER INTERNET',
     siteUrl: 'https://intro2AI.github.io/',
   },
   plugins,

@@ -38,7 +38,8 @@ class Header extends Component {
 
   render() {
     const { headerClass } = this.state;
-    const { lang } = this.props;
+    // const { lang } = this.props;
+    const lang = 'fi';
 
     const isSmallHeader = headerClass === 'header--small';
 

@@ -72,7 +72,7 @@ export default function PartIntroTemplate({ data }) {
                 },
                 {
                   backgroundColor: colors['black'],
-                  text: `${lang === 'fi' ? 'Osa' : 'Part'} ${part}`,
+                  text: `${lang === 'fi' ? 'भाग' : 'Part'} ${part}`,
                 },
               ]}
             />

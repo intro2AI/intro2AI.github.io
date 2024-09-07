@@ -195,7 +195,7 @@ export default class ContentTemplate extends Component {
                   },
                   {
                     backgroundColor: colorCode,
-                    text: `${lang === 'fi' ? 'Osa' : 'Part'} ${part}`,
+                    text: `${lang === 'fi' ? 'भाग' : 'Part'} ${part}`,
                     link: getPartTranslationPath(lang, part),
                   },
                   {

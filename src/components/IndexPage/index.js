@@ -81,12 +81,14 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
             >
               {t('homePage:startCourseButton')}
             </Link>
-{/* 
-            <BodyText
-              className="frontpage-hero__description"
-              headingFont
-              text={intro}
-            /> */}
+
+            <Element flex horizontalHalf flexStart>
+              <BodyText
+                className="spacing--small link"
+                headingFont
+                text={current}
+              />
+            </Element>
           </Element>
 
           <Image
@@ -101,25 +103,6 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
 
       <Element className="container spacing spacing--after">
         <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
-          <Element flex horizontalHalf flexStart>
-            {/* <Element flex spaceBetween autoBottomMargin className="col-10">
-              <BodyText
-                className="col-7 col-8--mobile link"
-                style={{ marginRight: '2rem' }}
-                heading={{
-                  title: t('homePage:announcementsTitle'),
-                  level: 'h3',
-                }}
-              />
-            </Element> */}
-
-            <BodyText
-              className="spacing--small link"
-              headingFont
-              text={current}
-            />
-          </Element>
-
           <Element className="container spacing spacing--after">
             <img
               src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGlwejF1Zm16ZnZ4dnAwcndjYWUwaDN0OWVpdm9idjNnemdkNzJ2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BDBUQdVCB0otTU2GwV/giphy.gif"
@@ -127,7 +110,9 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
               style={{ maxWidth: '100%', height: 'auto' }}
             />
           </Element>
-
+        </Element>
+        
+        <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
           <Element flex horizontalHalf flexStart>
             <Element
               flex

@@ -71,7 +71,7 @@ export const PartBanner = ({ lang }) => {
                 alt: partNames[part],
               }}
               hoverImageSrc={require(`../../images/thumbnails/part-${part}_ovr.svg`)}
-              name={`${lang === 'fi' ? 'Osa' : 'Part'} ${part}`}
+              name={`${lang === 'fi' ? 'भाग' : 'Part'} ${part}`}
               summary={partNames[part]}
               path={getPartTranslationPath(lang, part)}
             />

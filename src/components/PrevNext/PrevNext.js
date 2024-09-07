@@ -22,7 +22,7 @@ const hasNext = (letter, part, lang) => {
   );
 };
 
-const labelOsaPart = lang => (lang === 'fi' ? 'Osa' : 'Part');
+const labelOsaPart = lang => (lang === 'fi' ? 'भाग' : 'Part');
 
 const langUrl = lang => (lang === 'fi' ? '/osa' : `/${lang}/part`);
 
