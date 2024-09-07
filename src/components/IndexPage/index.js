@@ -76,13 +76,19 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
             <SubHeader text={t('homePage:courseNameTitle')} headingLevel="h2" />
 
             <Link
-              className="frontpage-hero__cta centered about__challenge-button spacing--after--mobile"
+              className="frontpage-hero__cta centered about__challenge-button"
               to={getTranslationPath(lang, '/#course-contents')}
+              style={{ marginBottom: '0.5rem' }} // Reduced bottom margin
             >
               {t('homePage:startCourseButton')}
             </Link>
 
-            <Element flex horizontalHalf flexStart>
+            <Element 
+              flex 
+              horizontalHalf 
+              flexStart
+              style={{ marginTop: '-0.5rem' }} // Negative top margin to pull it closer to the link
+            >
               <BodyText
                 className="spacing--small link"
                 headingFont
