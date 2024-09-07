@@ -5,15 +5,15 @@ import navigation from '../../content/partnavigation/partnavigation';
 import getPartTranslationPath from '../../utils/getPartTranslationPath';
 
 const partNameTranslations = {
-  fi: [
-    'Web-sovellusten toiminnan perusteet',
-    'Reactin perusteet',
-    'Palvelimen kanssa tapahtuva kommunikointi',
-    'Palvelimen ohjelmointi NodeJS:n Express-kirjastolla',
-    'Express-sovellusten testaaminen, käyttäjänhallinta',
-    'React-sovelluksen testaaminen',
-    'Sovelluksen edistynyt tilan hallinta',
-    'React router, custom-hookit, tyylikirjastot ja webpack',
+  en: [
+    'The Basics',
+    'Feasibility and Ethics',
+    'Language Modelling',
+    'Project',
+    'Testing Express servers, user administration',
+    'Testing React apps',
+    'Advanced state management',
+    'React router, custom hooks, styling app with CSS and webpack',
     'GraphQL',
     'Typescript',
     'React Native',

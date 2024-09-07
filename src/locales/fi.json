@@ -14,9 +14,9 @@
   },
   "navigation": {
     "aboutCourse": "About Course",
-    "courseContents": "Course Contents",
+    "courseContents": "Course Us",
     "faq": "FAQ",
-    "partners": "About Us",
+    "partners": "About Teacher",
     "challenge": "Art Challenge",
     "searchLinkSrLabel": "Search from the material"
   },
@@ -45,10 +45,10 @@
     "faqTitle": "Frequently asked questions"
   },
   "homePage": {
-    "startCourseButton": "View Coursework",
-    "announcementsTitle": "  TIME AND DATE",
+    "startCourseButton": "View Course Material",
+    "announcementsTitle": "",
     "authorsTitle": "  Duration",
-    "courseNameTitle": "for Chefs, Medical Professionals, Primatologists, Police,  Fishermen, High Schoolers, Chemists, Radio Hosts, Business Analysts, Marine Archaeologists, Lawyers, Artists,  and all other Domain Experts.",
+    "courseNameTitle": "हा कोर्स ‌आप्ल्याला ‌आप्ल्या व्यवसायात AI कस लागू करायच हे शिकवेल",
     "codeConduct": "  REGISTRATION"
   }
 }
