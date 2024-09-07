@@ -5,7 +5,7 @@ import FaqPage from '../components/FaqPage';
 const FAQ = () => (
   <FaqPage
     lang="fi"
-    title="---FAQ---"
+    title="Introduction 2 AI"
     seoDescription="Usein kysytyt kysymykset"
   />
 );
