@@ -230,20 +230,17 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
               <BodyText
                 noPadding
                 className="attribution"
-                text={
-                  <>
-                    Website inspired by{' '}
-                    <a 
-                      href="https://fullstackopen.com/en/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      style={{ textDecoration: 'underline' }}
-                    >
-                      fullstackopen.com
-                    </a>
-                  </>
-                }
-              />
+              >
+                Website inspired by{' '}
+                <a 
+                  href="https://fullstackopen.com/en/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: 'underline' }}
+                >
+                  fullstackopen.com
+                </a>
+              </BodyText>
             </div>
 
             <Element flex spaceBetween className="col-3 col-10--mobile">
