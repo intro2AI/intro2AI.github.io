@@ -27,12 +27,8 @@ import getTranslationPath from '../../utils/getTranslationPath';
 import PaymentButton from './PaymentButton';
 import StickyButton from './StickyButton'; // Add this import
 
-const isBrowser = typeof window !== 'undefined';
 
-let isMobile = true;
-if (isBrowser) {
-  isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-}
+
 
 
 const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
@@ -76,15 +72,15 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
 
             <SubHeader text={t('homePage:courseNameTitle')} headingLevel="h2" />
 
-            <Link
+            {/* <Link
               className="frontpage-hero__cta centered about__challenge-button"
               to={getTranslationPath(lang, '/#course-contents')}
               style={{ marginBottom: '0.5rem' }} // Reduced bottom margin
             >
               {t('homePage:startCourseButton')}
-            </Link>
+            </Link> */}
 
-            <Element 
+            {/* <Element 
               flex 
               horizontalHalf 
               flexStart
@@ -95,7 +91,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
                 headingFont
                 text={current}
               />
-            </Element>
+            </Element> */}
           </Element>
 
           <Image
@@ -107,7 +103,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
           />
         </Element>
       </div>
-
+      <PartBanner lang={lang} />
       <Element className="container spacing spacing--after">
         <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
           <Element className="container spacing spacing--after">
@@ -123,7 +119,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
           </Element>
         </Element>
         
-        <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
+        {/* <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
           <Element flex horizontalHalf flexStart>
             <Element
               flex
@@ -158,13 +154,13 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
             />
           
           </Element>
-        </Element>
+        </Element> */}
       </Element>
 
-      <PartBanner lang={lang} />
-      <StickyButton lang={lang} />
+      
+      {/* <StickyButton lang={lang} /> */}
 
-      <Element flex spaceBetween className="container col-10 spacing--after">
+      {/* <Element flex spaceBetween className="container col-10 spacing--after">
         <TripleBorder
           backgroundColor={colors['white']}
           className="col-10 centered--mobile"
@@ -211,7 +207,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
             </Element>
           </Element>
         </TripleBorder>
-      </Element>
+      </Element> */}
     </Layout>
   );
 };
