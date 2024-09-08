@@ -41,7 +41,7 @@ class Footer extends Component {
     // const { lang } = this.props;
     const lang = 'fi';
 
-    const isSmallfooter = footerClass === 'footer--small';
+    const isSmallFooter = footerClass === 'footer--small';
 
     return (
       <div
