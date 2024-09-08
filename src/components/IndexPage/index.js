@@ -23,9 +23,9 @@ import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
 import news from '../../images/noun_news_1248039.svg';
 import getTranslationPath from '../../utils/getTranslationPath';
-import ReviewCarousel from '../../utils/ReviewCarousel'; // Add this import
-import PaymentButton from './PaymentButton';
 
+import PaymentButton from './PaymentButton';
+import StickyButton from './StickyButton'; // Add this import
 
 const isBrowser = typeof window !== 'undefined';
 
@@ -162,43 +162,7 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
       </Element>
 
       <PartBanner lang={lang} />
-
-      {/* 
-      <CompaniesBanner lang={lang} isFrontPage />
-      */}
-      {/*
-      <Element className="container spacing spacing--after">
-        <Element className="push-right-1 push-left-1" spaceBetween flex gap='1.111rem'>
-          
-
-          <Element flex horizontalHalf flexStart>
-            <Element
-              flex
-              spaceBetween
-              autoBottomMargin
-              className="col-10"
-            >
-              <BodyText
-                className="col-7 col-8--mobile link"
-                style={{ marginRight: '2rem' }}
-                heading={{
-                  title: t('homePage:reviewsTitle'),
-                  level: 'h3',
-                }}
-              />
-            </Element>
-            <ReviewCarousel reviews={reviews} />
-          </Element>
-        </Element>
-      </Element>
-      */}
-      <Element className="container spacing spacing--after">
-        <img
-          src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGlwejF1Zm16ZnZ4dnAwcndjYWUwaDN0OWVpdm9idjNnemdkNzJ2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BDBUQdVCB0otTU2GwV/giphy.gif"
-          alt="Animated GIF from Giphy"
-          style={{ maxWidth: '100%', height: 'auto' }}
-        />
-      </Element>
+      <StickyButton lang={lang} />
 
       <Element flex spaceBetween className="container col-10 spacing--after">
         <TripleBorder
@@ -227,20 +191,6 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
                 className="link"
                 text={["",""]}
               />
-              <BodyText
-                noPadding
-                className="attribution"
-              >
-                Website inspired by{' '}
-                <a 
-                  href="https://fullstackopen.com/en/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  style={{ textDecoration: 'underline' }}
-                >
-                  fullstackopen.com
-                </a>
-              </BodyText>
             </div>
 
             <Element flex spaceBetween className="col-3 col-10--mobile">
