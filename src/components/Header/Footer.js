@@ -48,7 +48,7 @@ class Footer extends Component {
         ref={this.footer}
         className={`footer ${footerClass}`}
         style={{
-          backgroundColor: footerClass !== '' ? 'transparent' : 'white',
+          backgroundColor: footerClass !== '' ? 'transparent' : 'transparent',
         }}
       >
         <div
@@ -61,7 +61,7 @@ class Footer extends Component {
                 className="nav-item-hover"
                 childrenClassName="triple-border__logo"
               >
-                {'intro2AI'}
+                {'₹199 फक्त'}
               </TripleBorder>
             ) : (
               <TripleBorder
@@ -69,11 +69,10 @@ class Footer extends Component {
                 className="nav-item-hover"
                 childrenClassName="triple-border__logo"
               >
-                AI
+                ₹199 फक्त
               </TripleBorder>
             )}
           </Link>
-          {!isSmallFooter && <FooterNavigation lang={lang} />}
         </div>
       </div>
     );

@@ -158,7 +158,6 @@ const IndexPage = ({ lang, title = 'Introduction to Modern AI' }) => {
       </Element>
 
       
-      {/* <StickyButton lang={lang} /> */}
 
       {/* <Element flex spaceBetween className="container col-10 spacing--after">
         <TripleBorder

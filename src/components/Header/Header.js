@@ -55,13 +55,13 @@ class Header extends Component {
           className="container"
           style={{ alignItems: 'center', justifyContent: 'flex-start' }}
         >
-          <Link to={getTranslationPath(lang, '/')} className="header__logo">
+          {/* <Link to={getTranslationPath(lang, '/')} className="header__logo">
             {headerClass === '' ? (
               <TripleBorder
                 className="nav-item-hover"
                 childrenClassName="triple-border__logo"
               >
-                {'intro2AI'}
+                {'ai.shappath'}
               </TripleBorder>
             ) : (
               <TripleBorder
@@ -69,10 +69,10 @@ class Header extends Component {
                 className="nav-item-hover"
                 childrenClassName="triple-border__logo"
               >
-                AI
+                ai
               </TripleBorder>
             )}
-          </Link>
+          </Link> */}
           {!isSmallHeader && <Navigation lang={lang} />}
         </div>
       </div>
