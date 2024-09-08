@@ -55,7 +55,7 @@ class Header extends Component {
           className="container"
           style={{ alignItems: 'center', justifyContent: 'flex-start' }}
         >
-          {/* <Link to={getTranslationPath(lang, '/')} className="header__logo">
+          <Link to={getTranslationPath(lang, '/')} className="header__logo">
             {headerClass === '' ? (
               <TripleBorder
                 className="nav-item-hover"
@@ -72,7 +72,7 @@ class Header extends Component {
                 ai
               </TripleBorder>
             )}
-          </Link> */}
+          </Link>
           {!isSmallHeader && <Navigation lang={lang} />}
         </div>
       </div>

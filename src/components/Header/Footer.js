@@ -73,6 +73,7 @@ class Footer extends Component {
               </TripleBorder>
             )}
           </Link>
+          {!isSmallFooter && <FooterNavigation lang={lang} />}
         </div>
       </div>
     );

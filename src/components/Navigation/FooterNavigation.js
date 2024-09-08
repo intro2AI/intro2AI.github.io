@@ -14,28 +14,7 @@ const getTranslationPath = (path, language) => {
 };
 
 export const getNavigation = (language, t) => {
-  return [
-    {
-      text: t('footer-navigation:aboutCourse'),
-      path: getTranslationPath('/about', language),
-    },
-    // {
-    //   text: t('navigation:courseContents'),
-    //   path: getTranslationPath('/#course-contents', language),
-    // },
-    { text: t('footer-navigation:faq'), 
-      path: getTranslationPath('/faq', language), 
-    },
-    // {
-    //   text: t('navigation:challenge'),
-    //   path: getTranslationPath('/challenge', language),
-    // },
-    {
-      text: t('footer-navigation:partners'),
-      path: getTranslationPath('/companies', language),
-    },
-    
-  ];
+  return [];
 };
 
 const searchIsEnabledForLang = lang => {
