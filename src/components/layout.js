@@ -29,7 +29,7 @@ class Layout extends Component {
     return (
       <div className="main-wrapper">
         <Header lang={siteLanguage} />
-        <main>
+        <main className="main-content"> 
           {this.props.children}
         </main>
         <Footer lang={siteLanguage} />  {/* Add the Footer component */}

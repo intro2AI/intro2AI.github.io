@@ -28,6 +28,10 @@ body {
   flex-direction: column;
 }
 
+.main-content {
+  flex-grow: 1;
+}
+
 p {
   margin: 0;
   text-align: left;
