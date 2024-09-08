@@ -2,7 +2,7 @@ import './layout.css';
 import './index.scss';
 
 import React, { Component } from 'react';
-import Footer from './Footer/Footer';  // Import the new Footer component
+import Footer from './Header/Footer';  // Import the new Footer component
 import Header from './Header/Header';
 import PropTypes from 'prop-types';
 

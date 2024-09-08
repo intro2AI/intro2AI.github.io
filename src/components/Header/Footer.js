@@ -2,7 +2,7 @@ import './Footer.scss';
 
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import Navigation from '../Navigation/Navigation';
+import FooterNavigation from '../Navigation/FooterNavigation';
 import { TripleBorder } from '../TripleBorder/TripleBorder';
 import getTranslationPath from '../../utils/getTranslationPath';
 
@@ -73,7 +73,7 @@ class Footer extends Component {
               </TripleBorder>
             )}
           </Link>
-          {!isSmallFooter && <Navigation lang={lang} />}
+          {!isSmallFooter && <FooterNavigation lang={lang} />}
         </div>
       </div>
     );

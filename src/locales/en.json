@@ -20,6 +20,14 @@
     "challenge": "Art Challenge",
     "searchLinkSrLabel": "Search from the material"
   },
+  "footer-navigation": {
+    "aboutCourse": "About Course",
+    "courseContents": "Course Contents",
+    "faq": "FAQ",
+    "partners": "About Us",
+    "challenge": "Art Challenge",
+    "searchLinkSrLabel": "Search from the material"
+  },
   "challengePage": {
     "aboutTitle": "Compliment traditional tools with 'latent' brush strokes",
     "joinTitle": "Tools",
