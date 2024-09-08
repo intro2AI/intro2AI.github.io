@@ -61,7 +61,7 @@ class Footer extends Component {
                 className="nav-item-hover"
                 childrenClassName="triple-border__logo"
               >
-                {'₹199 Buy'}
+                {'Buy'}
               </TripleBorder>
             ) : (
               <TripleBorder
@@ -69,11 +69,11 @@ class Footer extends Component {
                 className="nav-item-hover"
                 childrenClassName="triple-border__logo"
               >
-                ₹199 Buy
+                Buy
               </TripleBorder>
             )}
           </Link>
-          {!isSmallFooter && <FooterNavigation lang={lang} />}
+          {/* {!isSmallFooter && <FooterNavigation lang={lang} />} */}
         </div>
       </div>
     );

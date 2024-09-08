@@ -25,7 +25,7 @@ import news from '../../images/noun_news_1248039.svg';
 import getTranslationPath from '../../utils/getTranslationPath';
 
 import PaymentButton from './PaymentButton';
-import StickyButton from './StickyButton'; // Add this import
+
 
 
 
