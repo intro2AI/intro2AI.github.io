@@ -44,7 +44,7 @@ class Footer extends Component {
     const isSmallFooter = footerClass === 'footer--small';
 
     return (
-      <div
+<div
         ref={this.footer}
         className={`footer ${footerClass}`}
         style={{
@@ -55,13 +55,19 @@ class Footer extends Component {
           className="container"
           style={{ alignItems: 'center', justifyContent: 'flex-start' }}
         >
-          <Link to={getTranslationPath(lang, '/')} className="footer__logo">
+          <div className="footer__logo">
             {footerClass === '' ? (
               <TripleBorder
                 className="nav-item-hover"
                 childrenClassName="triple-border__logo"
               >
-                {'Buy'}
+                <form>
+                  <script
+                    src="https://checkout.razorpay.com/v1/payment-button.js"
+                    data-payment_button_id="pl_Ov5U4jej5bshyH"
+                    async
+                  />
+                </form>
               </TripleBorder>
             ) : (
               <TripleBorder
@@ -69,10 +75,16 @@ class Footer extends Component {
                 className="nav-item-hover"
                 childrenClassName="triple-border__logo"
               >
-                Buy
+                <form>
+                  <script
+                    src="https://checkout.razorpay.com/v1/payment-button.js"
+                    data-payment_button_id="pl_OtrjpUoKjvKcl2"
+                    async
+                  />
+                </form>
               </TripleBorder>
             )}
-          </Link>
+          </div>
           {/* {!isSmallFooter && <FooterNavigation lang={lang} />} */}
         </div>
       </div>
