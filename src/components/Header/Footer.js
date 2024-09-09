@@ -5,6 +5,7 @@ import { Link } from 'gatsby';
 import FooterNavigation from '../Navigation/FooterNavigation';
 import { TripleBorder } from '../TripleBorder/TripleBorder';
 import getTranslationPath from '../../utils/getTranslationPath';
+import PaymentButton from '../IndexPage/PaymentButton';
 
 class Footer extends Component {
   constructor(props) {
@@ -44,49 +45,11 @@ class Footer extends Component {
     const isSmallFooter = footerClass === 'footer--small';
 
     return (
-      <div
-        ref={this.footer}
-        className={`footer ${footerClass}`}
-        style={{
-          backgroundColor: footerClass !== '' ? 'transparent' : 'transparent',
-        }}
-      >
-        <div
-          className="container"
-          style={{
-            alignItems: 'center',
-            justifyContent: 'center',
-            display: 'flex',
-          }}
-        >
-          <Link to={getTranslationPath(lang, '/')} className="footer__logo">
-            {footerClass === '' ? (
-              <form>
-                <script
-                  src="https://checkout.razorpay.com/v1/payment-button.js"
-                  data-payment_button_id="pl_Ov5U4jej5bshyH"
-                  data-button_height="60"
-                  data-button_color="#6772e5"
-                  async
-                >
-                </script>
-              </form>
-            ) : (
-              <form>
-                <script
-                  src="https://checkout.razorpay.com/v1/payment-button.js"
-                  data-payment_button_id="pl_Ov5U4jej5bshyH"
-                  data-button_height="60"
-                  data-button_color="#6772e5"
-                  async
-                >
-                </script>
-              </form>
-            )}
-          </Link>
-          {/* {!isSmallFooter && <FooterNavigation lang={lang} />} */}
+      <div className="footer">
+        <div className="container" style={{ display: 'flex', justifyContent: 'center' }}>
+          <PaymentButton />
         </div>
-      </div>
+    </div>
     );
   }
 }
