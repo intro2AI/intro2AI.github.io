@@ -44,7 +44,7 @@ class Footer extends Component {
     const isSmallFooter = footerClass === 'footer--small';
 
     return (
-<div
+      <div
         ref={this.footer}
         className={`footer ${footerClass}`}
         style={{
@@ -53,38 +53,37 @@ class Footer extends Component {
       >
         <div
           className="container"
-          style={{ alignItems: 'center', justifyContent: 'flex-start' }}
+          style={{
+            alignItems: 'center',
+            justifyContent: 'center',
+            display: 'flex',
+          }}
         >
-          <div className="footer__logo">
+          <Link to={getTranslationPath(lang, '/')} className="footer__logo">
             {footerClass === '' ? (
-              <TripleBorder
-                className="nav-item-hover"
-                childrenClassName="triple-border__logo"
-              >
-                <form>
-                  <script
-                    src="https://checkout.razorpay.com/v1/payment-button.js"
-                    data-payment_button_id="pl_Ov5U4jej5bshyH"
-                    async
-                  />
-                </form>
-              </TripleBorder>
+              <form>
+                <script
+                  src="https://checkout.razorpay.com/v1/payment-button.js"
+                  data-payment_button_id="pl_Ov5U4jej5bshyH"
+                  data-button_height="60"
+                  data-button_color="#6772e5"
+                  async
+                >
+                </script>
+              </form>
             ) : (
-              <TripleBorder
-                hover
-                className="nav-item-hover"
-                childrenClassName="triple-border__logo"
-              >
-                <form>
-                  <script
-                    src="https://checkout.razorpay.com/v1/payment-button.js"
-                    data-payment_button_id="pl_OtrjpUoKjvKcl2"
-                    async
-                  />
-                </form>
-              </TripleBorder>
+              <form>
+                <script
+                  src="https://checkout.razorpay.com/v1/payment-button.js"
+                  data-payment_button_id="pl_Ov5U4jej5bshyH"
+                  data-button_height="60"
+                  data-button_color="#6772e5"
+                  async
+                >
+                </script>
+              </form>
             )}
-          </div>
+          </Link>
           {/* {!isSmallFooter && <FooterNavigation lang={lang} />} */}
         </div>
       </div>
