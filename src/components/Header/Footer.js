@@ -45,11 +45,42 @@ class Footer extends Component {
     const isSmallFooter = footerClass === 'footer--small';
 
     return (
-      <div className="footer">
-        <div className="container" style={{ display: 'flex', justifyContent: 'center' }}>
-          <PaymentButton />
+      <div
+        ref={this.footer}
+        className={`footer ${footerClass}`}
+        style={{
+          backgroundColor: footerClass !== '' ? 'transparent' : 'transparent',
+        }}
+      >
+        <div
+          className="container"
+          style={{
+            alignItems: 'center',
+            justifyContent: 'center',
+            display: 'flex',
+          }}
+        >
+          <Link to={getTranslationPath(lang, '/about')} className="footer__logo">
+            {footerClass === '' ? (
+              <TripleBorder
+                className="nav-item-hover"
+                childrenClassName="triple-border__logo"
+              >
+                {'Buy'}
+              </TripleBorder>
+            ) : (
+              <TripleBorder
+                hover
+                className="nav-item-hover"
+                childrenClassName="triple-border__logo"
+              >
+                Buy
+              </TripleBorder>
+            )}
+          </Link>
+          {/* {!isSmallFooter && <FooterNavigation lang={lang} />} */}
         </div>
-    </div>
+      </div>
     );
   }
 }
