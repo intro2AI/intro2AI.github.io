@@ -1,3 +1,4 @@
+// modify the layout in such a way that the footer will not display on this page
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'gatsby';
@@ -14,6 +15,7 @@ import landingImage from '../../images/landing.webp';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
 import PaymentButton from '../IndexPage/PaymentButton';
+import content from '../../content/pages/main.json';
 
 const AboutPage = ({ title, lang }) => {
   const { t } = useTranslation();
@@ -32,6 +34,18 @@ const AboutPage = ({ title, lang }) => {
           'Full stack harjoitustyö',
         ]}
       />
+       <Element 
+          flex 
+          horizontalHalf 
+          flexStart
+          style={{ marginTop: '-0.5rem' }} // Negative top margin to pull it closer to the link
+        >
+          <BodyText
+            className="spacing--small link"
+            headingFont
+            text={current}
+          />
+      </Element>
       <PaymentButton />
       <PartBanner lang={lang} />
       {/* <Footer lang={lang} /> */}
