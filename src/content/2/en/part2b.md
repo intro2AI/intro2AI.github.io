@@ -7,16 +7,20 @@ lang: en
 
 <div class="content">
 
-This section will give you an intuitive understanding of how Large Language Models work.
+With Neural Networks, things are not as simple as they seem. There is something insidious going on. 
 
 ### Playground
-[Exploring the Embedding Space](https://projector.tensorflow.org/)<br>
-[Exploring word analogies](https://lamyiowce.github.io/word2viz/)<br>
-[An Explorable BERT](https://huggingface.co/spaces/exbert-project/exbert)<br>
-[What have language models learnt?](https://pair.withgoogle.com/explorables/fill-in-the-blank/)<br>
-
+[Teachable Machine](https://teachablemachine.withgoogle.com/)<br>
+[Thing Translator](https://thing-translator.appspot.com/)
 
 ### Resources
-[Generative AI exists because of the Transformer](https://ig.ft.com/generative-ai/)<br>
+[Neural Network Follies by Neil Fraser, September 1998 ](https://neil.fraser.name/writing/tank/)
+
+Optional:<br>
+[Natural Adversarial Examples](https://arxiv.org/pdf/1907.07174.pdf)<br>
+[Gender-From-Iris or Gender-From-Mascara?](https://arxiv.org/pdf/1702.01304.pdf)<br>
+[A New Angle on L2 Regularization](https://thomas-tanay.github.io/post--L2-regularization/)<br>
+[Synthesizing Robust Adversarial Examples](https://arxiv.org/pdf/1707.07397.pdf)<br>
+[Kaggle Right Whale Competition](https://felixlaumon.github.io/2015/01/08/kaggle-right-whale.html)<br>
 
 </div>

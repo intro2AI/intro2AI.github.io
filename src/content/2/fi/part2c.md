@@ -1,25 +1,29 @@
 ---
-mainImage: ../../../images/part-2.svg
-part: 2
+mainImage: ../../../images/part-0.svg
+part: 0
 letter: c
 lang: fi
 ---
 
 <div class="content">
 
-In this section, we will look at feasible applications of Large Language Models.
+In this section, we will practice designing AI applications in more detail.
 
-### LLM Use-cases
-[THE text PROJECT: AI-powered tools for rappers, writers, and wordsmiths](https://textfx.withgoogle.com/)<br>
-[Chatting with Books](https://www.pdfgear.com/)<br>
-[Prompt Gallery](https://developers.generativeai.google/prompt-gallery)<br>
-[Maker Suite](https://makersuite.google.com/app/home)<br>
-[Fine Tuning](https://makersuite.google.com/app/tuned_models/new_tuned_model)<br>
+### Playground
+[Google Jamboard: if/else, Design, and AI](https://jamboard.google.com/)<br>
+[Google Jamboard: System 1 vs System 2](https://jamboard.google.com/)<br>
+[Studying AI Experiments 0](https://trekhleb.dev/machine-learning-experiments/#/)<br>
+[Studying AI Experiments 1](https://experiments.withgoogle.com/experiments)<br>
+[Studying AI Experiments 2](https://artsandculture.google.com/)<br>
+[ml5.js community page](https://ml5js.org/community/)<br>
+
 
 ### Resources
-[Jailbreak chat](https://www.jailbreakchat.com/)<br>
-[Gary Marus' Twitter](https://twitter.com/GaryMarcus)<br>
-[Jailbreaking LLMs 1](https://arxiv.org/pdf/2305.13860.pdf)<br>
-[Jailbreaking LLMs 2](https://jailbreaking-llms.github.io/)<br>
+[Varun Ganapathi: AKASA, AI and Healthcare](https://thegradientpub.substack.com/p/varun-ganapathi-akasa-ai-and-healthcare#details)<br>
+[Google's People + AI Guidebook](https://pair.withgoogle.com/guidebook/case-studies)<br>
+[Emerj AI Case Studies](https://emerj.com/ai-case-studies/)<br>
+
+Optional:<br>
+[Machine Learning: The High Interest Credit Card of Technical Debt](https://research.google/pubs/pub43146/)<br>
 
 </div>

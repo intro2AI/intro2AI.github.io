@@ -5,11 +5,12 @@ import navigation from '../../content/partnavigation/partnavigation';
 import getPartTranslationPath from '../../utils/getPartTranslationPath';
 
 const partNameTranslations = {
-  en: [
-    'The Basics',
-    'Feasibility and Ethics',
-    'Language Modelling',
-    'Project',
+  fi: [
+    'What GenAI can and cannot do',
+    'The ethics',
+    'The basics',
+    'Guidelines for feasible AI applications',
+    'Self-study roadmap',
     'Testing Express servers, user administration',
     'Testing React apps',
     'Advanced state management',

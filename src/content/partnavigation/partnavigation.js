@@ -1,19 +1,35 @@
 module.exports = {
   fi: {
     '0': {
-      a: 'Supervised Learning',
-      b: 'The Alignment Problem',
-      c: 'Designing AI Systems',
+      a: 'What Chatgpt can do?',
+      b: 'What Chatgpt cannot do?',
+      c: 'How do LLMs work?',
+      d: 'Efficiency, Cost and Robustness',
     },
     '1': {
-      a: 'Model Selection and Evaluation',
-      b: 'Types of Errors',
-      c: 'Deceptive Datasets and Negative Feedback Loops',
+      a: 'Negative Feedback Loops',
+      b: 'Data Ownership',
+      c: 'DeepFakes',
+      d: 'Bubbles and Narrative Setting',
+      e: 'AI for Loans? Hiring? Law and Law Enforcement?',
     },
     '2': {
-      a: 'Google Search and Juxtaposition',
-      b: 'Intuition: Large Language Models(LLMs)',
-      c: 'LLM Use-Cases',
+      a: 'What is Machine Learning?',
+      b: 'Supervised Learning',
+      c: '3 type of errors',
+    },
+    '3': {
+      a: 'The Alignment Problem',
+      b: '(AI)gorithms and Design',
+      c: 'Precision and Recall',
+      d: 'Cost of Data Collection',
+      e: 'Using Domain Knowledge',
+    },
+    '4': {
+      a: 'Math',
+      b: 'Coding',
+      c: 'ML',
+      d: 'Cool Research Directions',
     },
   },
   en: {
