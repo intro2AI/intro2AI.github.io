@@ -34,20 +34,40 @@ const AboutPage = ({ title, lang }) => {
           'Full stack harjoitustyö',
         ]}
       />
-       <Element 
-          flex 
-          horizontalHalf 
-          flexStart
-          style={{ marginTop: '-0.5rem' }} // Negative top margin to pull it closer to the link
+      <div className="frontpage-hero container spacing--after spacing--mobile">
+        <Element
+          flex
+          spaceBetween
+          className="spacing--small spacing--mobile"
+          relative
         >
-          <BodyText
-            className="spacing--small link"
-            headingFont
-            text={current}
+          <Element dirColumn className="frontpage-hero__content col-6">
+            <SubHeader text={t('homePage:courseNameTitle')} headingLevel="h2" />
+            <Element 
+              flex 
+              horizontalHalf 
+              flexStart
+              style={{ marginTop: '-0.5rem' }} // Negative top margin to pull it closer to the link
+            >
+              <BodyText
+                className="spacing--small link"
+                headingFont
+                text={current}
+              />
+            </Element>
+          </Element>
+
+          <Image
+            contain
+            className="col-4 frontpage-hero__image"
+            style={{ margin: 0 }}
+            alt="Stacked cubes with React logo and JavaScript text"
+            src={landingImage}
           />
-      </Element>
+        </Element>
+      </div>
+       
       <PaymentButton />
-      <PartBanner lang={lang} />
       {/* <Footer lang={lang} /> */}
       
     </Layout>
