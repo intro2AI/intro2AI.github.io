@@ -13,6 +13,7 @@ import SEO from '../seo';
 import landingImage from '../../images/landing.webp';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
+import { SubHeader } from '../SubHeader/SubHeader';
 
 import PaymentButton from '../IndexPage/PaymentButton';
 import content from '../../content/pages/main.json';
