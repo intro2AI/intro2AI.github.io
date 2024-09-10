@@ -1,4 +1,3 @@
-// modify the layout in such a way that the footer will not display on this page
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'gatsby';
@@ -10,17 +9,29 @@ import { Image } from './../Image/Image';
 import Layout from '../layout';
 import { PartBanner } from '../PartBanner/PartBanner';
 import SEO from '../seo';
-import content from '../../content/pages/about.json';
+// import content from '../../content/pages/about.json';
 import landingImage from '../../images/landing.webp';
 import mainSEOdescription from '../../content/seo/mainSEOdescription';
 import mainSEOtags from '../../content/seo/mainSEOtags';
+
 import PaymentButton from '../IndexPage/PaymentButton';
 import content from '../../content/pages/main.json';
-
+// modify the layout in such a way that the footer will not display on this page
 const AboutPage = ({ title, lang }) => {
   const { t } = useTranslation();
-  const { intro } = content[lang] || content.en;
+  // const { intro } = content[lang] || content.en;
   const seoDescription = mainSEOdescription[lang] || mainSEOdescription.en;
+
+  const {
+    // mainTitle,
+    // intro,
+    current,
+    // licence,
+    // university,
+    // houston,
+    // contacts,
+    // licenced,
+  } = content[lang];
 
   return (
     <Layout>
