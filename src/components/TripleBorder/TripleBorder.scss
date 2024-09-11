@@ -2,26 +2,19 @@
 
 .triple-border {
   position: relative;
-  padding: 6px;
-  border-radius: 12px 0;
-  transition: opacity 0.3s ease-in-out, color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+  padding: 5px;
+  border-radius: 10px 0;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
 
   &::before,
   &::after {
     z-index: 2;
     content: '';
     border: 2px solid $black;
-    border-radius: 12px;
+    border-radius: 10px;
     position: absolute;
     width: calc(100% + 5px);
     height: calc(100% + 5px);
-    transition: opacity 0.3s ease-in-out;
-    opacity: 0;
-  }
-
-  &.triple-border--visible::before,
-  &.triple-border--visible::after {
-    opacity: 1;
   }
 
   &::before {
@@ -60,8 +53,8 @@
 }
 
 .triple-border__logo {
-  padding: 0.5rem;
-  font-size: 2.1rem;
+  padding: 0.3rem;
+  font-size: 1.7rem;
   font-weight: $font-weight-semi-bold;
 }
 
