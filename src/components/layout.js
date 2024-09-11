@@ -25,6 +25,7 @@ class Layout extends Component {
 
   render() {
     const { siteLanguage } = this.state;
+    const { children, hideFooter } = this.props;
 
     return (
       <div className="main-wrapper">
@@ -32,7 +33,7 @@ class Layout extends Component {
         <main className="main-content"> 
           {this.props.children}
         </main>
-        <Footer lang={siteLanguage} />  {/* Add the Footer component */}
+        {!hideFooter && <Footer lang={siteLanguage} />}
       </div>
     );
   }
@@ -40,6 +41,11 @@ class Layout extends Component {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  hideFooter: PropTypes.bool,
+};
+
+Layout.defaultProps = {
+  hideFooter: false,
 };
 
 export default Layout;

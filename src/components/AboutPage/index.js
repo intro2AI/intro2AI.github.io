@@ -35,7 +35,7 @@ const AboutPage = ({ title, lang }) => {
   } = content[lang];
 
   return (
-    <Layout>
+    <Layout hideFooter={true}>
       <SEO
         lang={lang}
         title={title}

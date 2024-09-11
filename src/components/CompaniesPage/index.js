@@ -15,7 +15,7 @@ const CompaniesPage = ({ lang, title, seoDescription }) => {
   const langStories = stories[lang] || [];
 
   return (
-    <Layout>
+    <Layout hideFooter={true}>
       <SEO
         lang={lang}
         title={title}

@@ -33,7 +33,7 @@ class Footer extends Component {
     this.setState({
       top: scroll,
       footerClass:
-        this.state.top > 10 && scroll > this.state.top ? 'footer--small' : '',
+        this.state.top > 5 && scroll > this.state.top ? 'footer--small' : '',
     });
   };
 
