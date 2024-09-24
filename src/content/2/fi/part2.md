@@ -1,6 +1,6 @@
 ---
-mainImage: ../../../images/part-0.svg
-part: 0
+mainImage: ../../../images/part-2.svg
+part: 2
 lang: fi
 ---
 

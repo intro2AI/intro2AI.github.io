@@ -54,7 +54,7 @@ const AboutPage = ({ title, lang }) => {
           relative
         >
           <Element dirColumn className="frontpage-hero__content col-6">
-            <SubHeader text={t('homePage:courseNameTitle')} headingLevel="h2" />
+            <SubHeader text={t('homePage:buyPage')} headingLevel="h2" />
             <Element 
               flex 
               horizontalHalf 
