@@ -16,8 +16,8 @@ const getTranslationPath = (path, language) => {
 export const getNavigation = (language, t) => {
   return [
     {
-      text: t('navigation:aboutCourse'),
-      path: getTranslationPath('/about', language),
+      text: t('navigation:homePage'),
+      path: getTranslationPath('/#course-contents', language),
     },
     // {
     //   text: t('navigation:courseContents'),
