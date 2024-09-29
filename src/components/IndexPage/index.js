@@ -26,7 +26,13 @@ import getTranslationPath from '../../utils/getTranslationPath';
 
 import PaymentButton from './PaymentButton';
 
-
+// Faq section typo
+// Change about page
+// Remove the random captial words
+// About page typo, change about page name to buy page
+// Update personal website - with projects I did at flame - new GIFs
+// translate - fi to mar? or diable translate button
+// payment button not working on nisha phone
 
 
 
