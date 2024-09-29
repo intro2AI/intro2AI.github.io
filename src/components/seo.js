@@ -26,6 +26,9 @@ function SEO({ description, lang, meta, image, keywords, title }) {
           <Helmet
             htmlAttributes={{
               lang,
+              // no translation
+              class: 'notranslate',  
+              translate: 'no',
             }}
             title={title}
             meta={[
@@ -72,6 +75,10 @@ function SEO({ description, lang, meta, image, keywords, title }) {
               {
                 name: 'google-site-verification',
                 content: 'ds9pQKiK3kjhRSHHbf5ccoG-oJggn7Lq4A8uHxM3Mkw',
+              },
+              {
+                name: 'robots',
+                content: 'notranslate',
               },
             ]
               .concat(
