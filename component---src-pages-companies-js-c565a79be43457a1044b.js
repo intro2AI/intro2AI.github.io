@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{IaAM:function(t,e,n){"use strict";n.r(e);var i=n("q1tI"),s=n.n(i),a=n("xEVu");e.default=function(){return s.a.createElement(a.a,{lang:"fi",title:"Test | Introduction to AI",seoDescription:"Kurssin yhteistyöyritysten devaajat esittäytyvät"})}}}]);
+//# sourceMappingURL=component---src-pages-companies-js-c565a79be43457a1044b.js.map

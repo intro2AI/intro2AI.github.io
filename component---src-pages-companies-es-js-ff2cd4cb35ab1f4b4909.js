@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{"+JAa":function(e,n,t){"use strict";t.r(n);var o=t("q1tI"),a=t.n(o),i=t("xEVu");n.default=function(){return a.a.createElement(i.a,{lang:"es",title:"Test | Introduction to AI",seoDescription:"Full stack development in partner companies"})}}}]);
+//# sourceMappingURL=component---src-pages-companies-es-js-ff2cd4cb35ab1f4b4909.js.map
